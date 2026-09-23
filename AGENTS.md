@@ -37,5 +37,5 @@ Ignore anything specifically related to **Expeditions**; this repository targets
 This is a personal mod repository. Do not introduce unrelated features or broad repository-wide changes. External pull requests are not part of the normal workflow.
 
 ## Logfiles
-Ingame Logs can be found here on the local machine for windows: C:\Users\USER_NAME\Documents\My Games\SnowRunner\base\logs
+Ingame Logs can be found here on the local machine for windows: C:\Users\USER_NAME\Documents\My Games\SnowRunner\base\logs\LegacyLog.txt
 - Notes: USER_NAME is a placeholder
