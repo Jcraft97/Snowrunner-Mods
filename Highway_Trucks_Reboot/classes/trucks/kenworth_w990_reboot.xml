@@ -670,7 +670,7 @@
 				<AddonsShift Offset="(-0.1; 0; 0)" Types="KenworthW990SpareWheel_Custom" />
 			</Socket>
 
-			<Socket Names="FlatbedKenworthT880" NamesBlock="LogLiftKenworth,KenworthW990SpareWheel_custom,MinicraneKenworthC500,CranekenworthW990,KenworthW990Kung,KenworthW990Repairs,AvenhornA15Kung,KenworthC500SpareWheel2" Offset="(0; 0.05; 0)" ParentFrame="BoneChassis_cdt"/>
+		<!--<Socket Names="FlatbedKenworthT880" NamesBlock="LogLiftKenworth,KenworthW990SpareWheel_custom,MinicraneKenworthC500,CranekenworthW990,KenworthW990Kung,KenworthW990Repairs,AvenhornA15Kung,KenworthC500SpareWheel2" Offset="(0; 0.05; 0)" ParentFrame="BoneChassis_cdt"/>-->
 		</AddonSockets>
 		
 			
