@@ -1,0 +1,162 @@
+CRANES:
+    
+    BIGCRANES:
+    
+    BigCrane
+    BigCraneUs
+    BigCraneRu
+    
+    MINICRANES_US:
+
+    MinicraneUS
+    MinicraneUSInverted
+    MinicraneKenworth
+    TatraCrane
+    MinicraneNavistar
+    PladMinicrane
+
+    MINICRANES_RU:
+
+    MinicraneRU
+    BurlakMinicraneRU
+    Femm37atMinicraneRU
+    MinicraneRUVoronG5352
+    MinicraneRUZikz
+
+    
+    OTHER:
+
+    CraneKrs58Bandit
+    CraneAvenhornA15
+    CranePacificP12
+    SleiterST833ChimeraCrane
+    CraneSleiterMFK816
+
+
+LOGCRANES:
+
+    LogLift
+    LogLiftKenworth
+    CraneMackPinnacle
+    LogLiftMercedes3850
+    LogLiftMercedesZetros
+    LogLiftPaderaSTD4
+
+CARGOBEDS:
+
+    FLATBEDS:
+
+    FrameAddonFlatbed1
+    FrameAddonFlatbed2
+    FrameAddonFlatbed3
+    FrameAddonFlatbedDan96320
+
+    FlatbedKenworthT880
+    Cat745CFlatbed
+    FrameAddonFlatbedKenworthC500
+    FlatbedKenworth1
+    FlatbedKenworth2
+    SleiterST833ChimeraFlatbed2
+    SleiterST833ChimeraFlatbed3
+
+
+    SIDEBOARDS:
+
+    FrameAddonSideboard1
+    FrameAddonSideboard2
+    FrameAddonSideboard3
+
+    FrameAddonMackTerraPro
+    FrameAddonMackTerraPro3
+    TatraSideboard
+    FemmSideboard
+    SleiterST833ChimeraSideboard2
+    SleiterST833ChimeraSideboard3
+    MastodonSideboard
+    Azov670963nSideboard
+    JangsuRX600Sideboard
+    MercedesMamute1519Sideboard
+    MercerK520Sideboard
+    Plad440Sideboard2
+    TatraT813Sideboard
+    Step39331PikeSideboard
+
+
+SPARE_WHEELS:
+
+    FLAT:
+        Azov73210SpareWheel        
+        CatCt680SpareWheel
+        ChevroletKodiakc70SpareWheel
+        Gmc8000SpareWheel
+        MackPinnacleSpareWheel2
+        MackTerraProSpareWheel
+        Pacific512SpareWheel
+        Ws6900xdTwinSpareWheel
+        JangsuRX600Sparewheel
+
+
+    UPRIGHT:
+        Mercedes3850Sparewheel
+        MercedesMamute1519Sparewheel
+        MercedesMamute1519Sparewheel02
+        Plad440SpareWheelDefault
+        Plad440SpareWheel
+        PaderaSTD4SpareWheels
+        WesternStar6900XDSpareWheel
+        MackPinnacleSpareWheel1
+        KenworthT880SpareWheel
+        KenworthW990SpareWheel
+        KenworthC500SpareWheel1
+        KenworthC500SpareWheel2
+        DerryLonghorn3194SpareWheel
+        SleiterST833ChimeraSpareWheel
+        PacificP12wSpareWheel
+        MastodonSpareWheel
+
+
+ROOFRACKS:
+    Aac58DwRoofrack
+    Azov670963nRoofrack
+    BurlakRoofrack
+    DerrySpecial15c177Roofrack
+    Don71Roofrack
+    Don71Roofrack2
+    Femm37AtRoofrack
+    HummerH2Roofrack
+    JangsuRX600Roofrack
+    Kenworth963Roofrack
+    KenworthC500Roofrack
+    KenworthT880Roofrack
+    KenworthW990Roofrack
+    MackDefenseM917Roofrack
+    MackPinnacleRoofrack
+    MackTerraProRoofrack
+    Mercedes3850Roofrack
+    MercedesBenzActrosRoofrack
+    MercedesBenzZetrosRoofrack
+    Mercer6X6R230Roofrack
+    MercerK520Roofrack
+    PaderaSTD4Roofrack
+    Plad440Roofrack
+    Plad450Roofrack
+    Rezvani6x6RoofRrack1
+    SleiterMFK816Roofrack
+    SleiterST833ChimeraRoofrack
+    Step39331PikeRoofrack
+    Tatra805Roofrack
+    TatraForceT8157Roofrack
+    TatraT813RooftopTrunk
+    WesternStar6900XDRoofrack
+    nf1424Roofrack
+
+
+CUSTOM_WHEELS:
+
+    wheels_avenhorn_a15
+    wheels_western_star_6900xd
+    wheels_offroad_single_sleiter_st833_chimera
+    wheels_heavy_padera_std4
+    wheels_kenworth_963
+    wheels_kenworth_990
+    wheels_derry_special_15c177
