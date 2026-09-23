@@ -30,8 +30,6 @@ Ignore anything specifically related to **Expeditions**; this repository targets
 
 ## Validation
 
-- Validate changes in SnowRunner before considering a mod complete.
-- Check that the mod loads without errors and that affected vehicles, assets, and gameplay behavior work as intended.
 - When relevant, document compatibility, dependencies, known limitations, and version-specific changes.
 
 ## Repository policy
