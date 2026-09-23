@@ -16,6 +16,8 @@
 		</Ignition>
 	</ModelAttachments>
 	<GameData
+		CameraPreset="roof"
+		Category="miscellenious"
 		Price="600"
 		UnlockByExploration="false"
 		UnlockByRank="1"

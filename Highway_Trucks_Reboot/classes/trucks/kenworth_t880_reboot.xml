@@ -460,7 +460,7 @@
 		<UiDesc
 			UiDesc="UI_VEHICLE_KENWORTH_T880_DESC"
 			UiIcon30x30="highwayVehicleImg30"
-			UiIcon328x458="shopImgKenworth880"
+			UiIcon328x458="truck_t880_store_pic"
 			UiIcon40x40="highwayVehicleImg"
 			UiIconLogo="KenworthLogo80"
 			UiName="UI_VEHICLE_KENWORTH_T880_NAME"
@@ -508,7 +508,7 @@
 			RequiredAddonIfNoConflicts="kenworth_t880_mudguards"
 		>
 			<Socket Names="KenworthT880Mudguards" ParentFrame="BoneChassis_cdt" />
-			<Socket Names="FlatbedKenworthT880" ParentFrame="BoneChassis_cdt" NamesBlock="KenworthT880Exhaust2, SaddleLow, SaddleHigh, BunkLog" Offset="(0; 0; 0)">
+			<Socket Names="FlatbedKenworthT880" ParentFrame="BoneChassis_cdt" NamesBlock="KenworthT880Exhaust2_custom, SaddleLow, SaddleHigh, BunkLog" Offset="(0; 0; 0)">
 				<ExtraParent Frame="BoneСabinTwist_cdt" Offset="(0; 0; 0)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; 0; 0)" />	
 			</Socket>

@@ -355,7 +355,7 @@
 		<CraneSocket Pos="(-0.827; 1.674; -0.534)" />
 		<!-- VISUAL ADDONS -->
 		<AddonSockets>
-			<Socket Names="PacificRoofrack" Offset="(-1.41; 0.36; 0)" NamesBlock="PacificP12CHGabarite,PacificP12CHHorn,PacificP12Kung" ParentFrame="BoneCabin_cdt" />
+			<Socket Names="PacificRoofrack2" Offset="(-0.3; 1.5; 0)" NamesBlock="PacificP12CHGabarite,PacificP12CHHorn,PacificP12Kung,Pacific512SpotLight,Pacific512Beacon,PacificP12CHBeacon" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>
 		<AddonSockets DefaultAddon="pacific_p12CH_bumper_default">
 			<Socket Names="PacificP12CHBumper" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />
@@ -368,18 +368,25 @@
 			<Socket Names="PacificP12CHExhaust" NamesBlock="" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />
 			<Socket Names="PacificP12CHExhaustTall" NamesBlock="SleiterST833ChimeraFlatbed3" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>
+		<AddonSockets  DefaultAddon="pacific_p12CH_fender_front_01">
+		<!--<Socket Names="Pacific512Visor" NamesBlock="" Offset="(-0.78; 0.53; 0)" ParentFrame="BoneCabin_cdt" />-->
+			<Socket Names="PacificP12CHFenderFront" NamesBlock="PacificP12CHGabarite" Offset="(-0.32; 0.48; -0.22)" ParentFrame="BoneCabin_cdt" />
+		</AddonSockets>
 		<AddonSockets>
 			<Socket
 				Names="PacificP12CHHorn"
 				NamesBlock="LogLift, PacificP12CHSpotLight"
-				Offset="(0; 0; 0)"
+				Offset="(-0.1; 0; 0)"
 				ParentFrame="BoneCabin_cdt"
 			/>
 		</AddonSockets>
-	<!--<AddonSockets>
-			<Socket Names="PacificP12CHSpotLight" NamesBlock="LogLift" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />
+		<AddonSockets>
+			<Socket Names="Pacific512SpotLight" NamesBlock="LogLift" Offset="(-0.88; 0.54; 0)" ParentFrame="BoneCabin_cdt" />
+		</AddonSockets>
+		<AddonSockets>
 			<Socket Names="PacificP12CHBeacon" NamesBlock="LogLift" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />
-		</AddonSockets>-->
+			<Socket Names="Pacific512Beacon" NamesBlock="LogLift" Offset="(-0.78; 0.53; 0)" ParentFrame="BoneCabin_cdt" />
+		</AddonSockets>
 		
 		<!-- VISUAL FRAME ADDONS -->
 		<AddonSockets>

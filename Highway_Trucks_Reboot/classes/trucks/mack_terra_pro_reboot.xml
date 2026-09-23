@@ -446,7 +446,7 @@
 		<UiDesc
 			UiDesc="UI_VEHICLE_MACK_TERRA_PRO_DESC"
 			UiIcon30x30="highwayVehicleImg30"
-			UiIcon328x458="shopImgMackTerraPro"
+			UiIcon328x458="truck_mack_terra_pro_store_pic"
 			UiIcon40x40="highwayVehicleImg"
 			UiIconLogo="MackLogo80"
 			UiName="UI_VEHICLE_MACK_TERRA_PRO_NAME"

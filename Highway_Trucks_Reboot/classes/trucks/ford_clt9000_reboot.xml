@@ -366,7 +366,7 @@
 			<region:default
 				UiDesc="UI_VEHICLE_FORD_CLT9000_DESC"
 				UiIcon30x30="highwayVehicleImg30"
-				UiIcon328x458="shopImgFordCLT9000"
+				UiIcon328x458="truck_clt9000_store_pic"
 				UiIcon40x40="highwayVehicleImg"
 				UiIconLogo="FordLogoAlt80"
 				UiName="UI_VEHICLE_FORD_CLT9000_NAME"

@@ -460,8 +460,11 @@
 			</Socket>
 			
 			<Socket Names="SaddleHigh1" NamesBlock="" Offset="(-4.641; 1.821; 0)" ParentFrame="BoneChassis_cdt" />
-			<Socket Names="FrameAddonTowPlatform" NamesBlock="LogLiftKenworth, MetalDetector, PacificP12SpareWheel_custom, Trailer, LogTrailer,PacificP12Kung" Offset="(-2.8; 1.82; 0)" ParentFrame="BoneChassis_cdt" />
-			
+
+			<Socket Names="FrameAddonTowPlatform" NamesBlock="LogLiftKenworth, MetalDetector, Trailer, LogTrailer" Offset="(-2.8; 1.82; 0)" ParentFrame="BoneChassis_cdt" >
+				<AddonsShift Offset="(-0.4; 0; 0)" Types="PacificP12SpareWheel_custom" />
+				<AddonsShift Offset="(-0.1; 0; 0)" Types="PacificP12Kung" />
+			</Socket>
 			<Socket Names="BigCraneUs" NamesBlock="LogLiftKenworth, MetalDetector, PacificP12SpareWheel_custom, PacificP12CabinProtector_custom" Offset="(-4.064; 1.921; 0)" ParentFrame="BoneChassis_cdt">
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.1; 0)" />
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.1; 0)" />

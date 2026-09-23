@@ -26,7 +26,7 @@
 			UiDesc="UI_TUNING_SPARE_WHEEL_DESC"
 			UiIcon30x30=""
 			UiIcon40x40=""
-			UiName="SpareWheelFlat"
+			UiName="Spare Wheel Flat"
 		/>
 		<InstallSocket Type="PacificP12CHSpareWheelFlat_1" />
 	</GameData>
