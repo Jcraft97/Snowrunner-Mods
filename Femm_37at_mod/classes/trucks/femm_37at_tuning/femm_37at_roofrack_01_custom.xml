@@ -105,6 +105,6 @@
 			UiIcon40x40=""
 			UiName="UI_TUNING_SCOUT_TRUNK_SUPPLIES_NAME"
 		/>
-		<InstallSocket Type="Femm37AtRoofrack" />
+		<InstallSocket Type="Femm37AtRoofrack_custom" />
 	</GameData>
 </TruckAddon>

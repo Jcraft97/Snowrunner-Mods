@@ -13,6 +13,6 @@
 			UiIcon40x40=""
 			UiName="UI_TUNING_HORNS_TWIN_TWOSIDE_NAME"
 		/>
-		<InstallSocket Type="Femm37AtHorn" />
+		<InstallSocket Type="Femm37AtHorn_custom" />
 	</GameData>
 </TruckAddon>

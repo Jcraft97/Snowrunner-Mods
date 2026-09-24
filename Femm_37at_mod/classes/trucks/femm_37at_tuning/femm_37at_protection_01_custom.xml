@@ -55,6 +55,6 @@
 			UiIcon40x40=""
 			UiName="UI_TUNING_BUMPER_SAVIOR_NAME"
 		/>
-		<InstallSocket Type="Femm37AtProtection" />
+		<InstallSocket Type="Femm37AtProtection_custom" />
 	</GameData>
 </TruckAddon>

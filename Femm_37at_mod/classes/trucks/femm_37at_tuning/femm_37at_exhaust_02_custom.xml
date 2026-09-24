@@ -22,7 +22,7 @@
 			UiIcon40x40=""
 			UiName="UI_TUNING_EXHAUST_OUTROLLED_NAME"
 		/>
-		<InstallSocket Type="Femm37atExhaust" />
+		<InstallSocket Type="Femm37atExhaust_custom" />
 	</GameData>
 	<Exhaust Dir="(-1; 0.8; -1)" IsLight="false" Origin="(4.262; 4.193; -1.051)" Speed="3.82" />
 </TruckAddon>

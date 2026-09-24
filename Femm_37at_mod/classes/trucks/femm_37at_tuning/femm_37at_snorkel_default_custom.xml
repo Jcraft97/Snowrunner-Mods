@@ -14,6 +14,6 @@
 			UiIcon40x40=""
 			UiName="UI_TUNING_SNORKEL_STOCK_NAME"
 		/>
-		<InstallSocket Type="Femm37AtSnorkel" />
+		<InstallSocket Type="Femm37AtSnorkel_custom" />
 	</GameData>
 </TruckAddon>

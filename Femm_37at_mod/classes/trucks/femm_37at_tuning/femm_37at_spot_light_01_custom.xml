@@ -36,6 +36,6 @@
 			UiIcon40x40=""
 			UiName="UI_TUNING_ROOFBAR_FOGLIGHTS_NAME"
 		/>
-		<InstallSocket Type="Femm37AtSpotlight" />
+		<InstallSocket Type="Femm37AtSpotlight_custom" />
 	</GameData>
 </TruckAddon>

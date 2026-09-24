@@ -43,6 +43,6 @@
 			UiIcon40x40=""
 			UiName="UI_TUNING_FORD_CLT9000_CLT_TOP_FENDER_NAME"
 		/>
-		<InstallSocket CameraPreset="roof" Type="Femm37AtTop" />
+		<InstallSocket CameraPreset="roof" Type="Femm37AtTop_custom" />
 	</GameData>
 </TruckAddon>

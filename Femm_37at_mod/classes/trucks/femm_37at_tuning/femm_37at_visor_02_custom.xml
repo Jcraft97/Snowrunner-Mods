@@ -23,6 +23,6 @@
 			UiIcon40x40=""
 			UiName="UI_TUNING_SUNVISOR_CHROME_BEACONS_NAME"
 		/>
-		<InstallSocket Type="Femm37AtVisor" />
+		<InstallSocket Type="Femm37AtVisor_custom" />
 	</GameData>
 </TruckAddon>

@@ -23,7 +23,7 @@
 			UiIcon40x40=""
 			UiName="UI_TUNING_EXHAUST_DEFAULT_NAME"
 		/>
-		<InstallSocket Type="Femm37atExhaust" />
+		<InstallSocket Type="Femm37atExhaust_custom" />
 	</GameData>
 	<Exhaust
 		Dir="(0; 0.3; -1)"

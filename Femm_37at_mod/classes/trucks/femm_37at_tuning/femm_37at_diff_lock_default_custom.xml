@@ -15,6 +15,6 @@
 			UiIcon40x40=""
 			UiName="UI_UPGRADE_DIFF_LOCK_NONE_NAME"
 		/>
-		<InstallSocket Type="FemmDiffLock" />
+		<InstallSocket Type="FemmDiffLock_custom" />
 	</GameData>
 </TruckAddon>

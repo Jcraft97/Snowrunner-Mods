@@ -280,7 +280,7 @@
 					<Motor
 						Damping="1.0"
 						Force="123000"
-						Tau="0.1"
+						Tau="0.2"
 						Type="Position"
 					/>
 				</Constraint>
@@ -364,7 +364,7 @@
 		Country="RU,CAS,WA"
 		ExcludeAddons="trailer_log_pole, trailer_log"
 		Price="181300"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 		FrameAlign="BoneBack_cdt"
 		FrameAlignOffset="(-5; 0; 0)"
@@ -422,38 +422,38 @@
 		<CraneSocket Pos="(-6.136; 1.261; -0.561)" ParentFrame="BoneBack_cdt" />
 		<CraneSocket Pos="(-6.342; 1.189; 0)" ParentFrame="BoneBack_cdt" />
 		<!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -ADDON SOCKETS- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
-		<AddonSockets DefaultAddon="femm_37at_exhaust_default" >
-			<Socket Names="Femm37atExhaust" ParentFrame="BoneFront_cdt"/>
+		<AddonSockets DefaultAddon="femm_37at_exhaust_default_custom" >
+			<Socket Names="Femm37atExhaust_custom" ParentFrame="BoneFront_cdt"/>
 		</AddonSockets>
-		<AddonSockets DefaultAddon="femm_37at_snorkel_default" >
-			<Socket Names="Femm37AtSnorkel" ParentFrame="BoneFront_cdt" />
-		</AddonSockets>
-		<AddonSockets>
-			<Socket Names="Femm37AtBeacon" ParentFrame="BoneCabin_cdt"/>
-		</AddonSockets>
-		<AddonSockets DefaultAddon="femm_37at_bumper_default">
-			<Socket Names="Femm37AtBumper" ParentFrame="BoneFront_cdt"/>
+		<AddonSockets DefaultAddon="femm_37at_snorkel_default_custom" >
+			<Socket Names="Femm37AtSnorkel_custom" ParentFrame="BoneFront_cdt" />
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="Femm37AtHorn" ParentFrame="BoneCabin_cdt"/>
+			<Socket Names="Femm37AtBeacon_custom" ParentFrame="BoneCabin_cdt"/>
+		</AddonSockets>
+		<AddonSockets DefaultAddon="femm_37at_bumper_default_custom">
+			<Socket Names="Femm37AtBumper_custom" ParentFrame="BoneFront_cdt"/>
+		</AddonSockets>
+		<AddonSockets>
+			<Socket Names="Femm37AtHorn_custom" ParentFrame="BoneCabin_cdt"/>
 		</AddonSockets>		
 		<AddonSockets>
-			<Socket Names="Femm37AtRoofrack" NamesBlock="Femm37AtHorn, Femm37AtBeacon, Femm37AtTop" ParentFrame="BoneFront_cdt"/>
+			<Socket Names="Femm37AtRoofrack_custom" NamesBlock="Femm37AtHorn_custom, Femm37AtBeacon_custom, Femm37AtTop_custom" ParentFrame="BoneFront_cdt"/>
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="Femm37AtSpotlight" ParentFrame="BoneCabin_cdt"/>
+			<Socket Names="Femm37AtSpotlight_custom" ParentFrame="BoneCabin_cdt"/>
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="Femm37AtVisor" ParentFrame="BoneCabin_cdt"/>
+			<Socket Names="Femm37AtVisor_customs" ParentFrame="BoneCabin_cdt"/>
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="Femm37AtTop" NamesBlock="Femm37AtSpotlight, Femm37AtBeacon, Femm37AtHorn" ParentFrame="BoneCabin_cdt"/>
+			<Socket Names="Femm37AtTop_custom" NamesBlock="Femm37AtSpotlight_custom, Femm37AtBeacon_custom, Femm37AtHorn_custom" ParentFrame="BoneCabin_cdt"/>
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="Femm37AtProtection" NamesBlock="Femm37AtTop" ParentFrame="BoneCabin_cdt"/>
+			<Socket Names="Femm37AtProtection_custom" NamesBlock="Femm37AtTop_custom" ParentFrame="BoneCabin_cdt"/>
 		</AddonSockets>
-		<AddonSockets DefaultAddon="femm_37at_diff_lock_default" >
-			<Socket Names="FemmDiffLock" Offset="(0; 0; 0)" ParentFrame="BoneFront_cdt" />
+		<AddonSockets DefaultAddon="femm_37at_diff_lock_default_custom" >
+			<Socket Names="FemmDiffLock_custom" Offset="(0; 0; 0)" ParentFrame="BoneFront_cdt" />
 		</AddonSockets>
 		<!-- FRAME_ADDONS -->
 		<AddonSockets>
@@ -473,7 +473,7 @@
 				<ExtraParent Frame="BoneChassisBack_cdt"/>
 				<ExtraParent Frame="BoneBack_cdt"/>		
 			</Socket>
-			<Socket Names="BigCrane" NamesBlock="SaddleHighFemm37at, Femm37AtTop, Femm37AtRoofrack" Offset="(-1.5; 1.76; 0)" ParentFrame="BoneChassisBack_cdt"/>
+			<Socket Names="BigCrane" NamesBlock="SaddleHighFemm37at, Femm37AtTop_custom, Femm37AtRoofrack_custom" Offset="(-1.5; 1.76; 0)" ParentFrame="BoneChassisBack_cdt"/>
 			<Socket Names="FrameAddon3" NamesBlock="SaddleHighFemm37at" Offset="(-2.35; 1.683; 0)" ParentFrame="BoneChassisBack_cdt">
 				<AddonsShift Offset="(-1.15; 0; 0)" Types="Femm37atMinicraneRU" />
 			</Socket>

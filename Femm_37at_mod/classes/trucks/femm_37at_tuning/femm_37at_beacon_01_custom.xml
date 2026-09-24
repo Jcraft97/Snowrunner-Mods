@@ -32,6 +32,6 @@
 			UiIcon40x40=""
 			UiName="UI_TUNING_ROUND_BEACON_NAME"
 		/>
-		<InstallSocket Type="Femm37AtBeacon" />
+		<InstallSocket Type="Femm37AtBeacon_custom" />
 	</GameData>
 </TruckAddon>

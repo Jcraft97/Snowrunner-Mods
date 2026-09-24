@@ -45,6 +45,6 @@
 			UiIcon40x40=""
 			UiName="UI_TUNING_BUMPER_HEAVYDUTY_PIPE_NAME"
 		/>
-		<InstallSocket Type="Femm37AtBumper" />
+		<InstallSocket Type="Femm37AtBumper_custom" />
 	</GameData>
 </TruckAddon>

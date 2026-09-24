@@ -6,7 +6,7 @@
 		CameraPreset="default"
 		Category="diff_lock"
 		Price="6600"
-		UnlockByExploration="true"
+		UnlockByExploration="false"
 		UnlockByRank="1"
 	>
 		<UiDesc
@@ -15,6 +15,6 @@
 			UiIcon40x40=""
 			UiName="UI_UPGRADE_DIFF_LOCK_SWITCHABLE_NAME"
 		/>
-		<InstallSocket Type="FemmDiffLock" />
+		<InstallSocket Type="FemmDiffLock_custom" />
 	</GameData>
 </TruckAddon>
