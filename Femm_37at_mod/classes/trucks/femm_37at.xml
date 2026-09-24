@@ -19,7 +19,7 @@
 		ExhaustStartTime="1.9"
 		FuelCapacity="340"
 		Responsiveness="0.3"
-		SteerSpeed="0.02"
+		SteerSpeed="0.015"
 		TruckImage="femm37atmchr"
 		TruckType="HEAVY"
 		HideDistance="250"
