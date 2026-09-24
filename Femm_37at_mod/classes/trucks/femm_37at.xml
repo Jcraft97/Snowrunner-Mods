@@ -19,7 +19,7 @@
 		ExhaustStartTime="1.9"
 		FuelCapacity="340"
 		Responsiveness="0.3"
-		SteerSpeed="0.035"
+		SteerSpeed="0.02"
 		TruckImage="femm37atmchr"
 		TruckType="HEAVY"
 		HideDistance="250"
@@ -280,7 +280,7 @@
 					<Motor
 						Damping="1.0"
 						Force="123000"
-						Tau="0.2"
+						Tau="0.6"
 						Type="Position"
 					/>
 				</Constraint>
