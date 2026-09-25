@@ -7,7 +7,7 @@
 		/>
 		<FrontWheel
 			Location="front"
-			SteeringAngle="40"
+			SteeringAngle="30"
 			SteeringCastor="8"
 			SteeringJointOffset="0.3"
 			Torque="full"
@@ -28,9 +28,9 @@
 		DiffLockType="Always"
 		EngineIconMesh="env/engine_default"
 		EngineIconScale="1.6"
-		EngineStartDelay="0.8"
-		ExhaustStartTime="0.9"
-		FuelCapacity="350"
+		EngineStartDelay="1.8"
+		ExhaustStartTime="1.5"
+		FuelCapacity="455"
 		Responsiveness="0.15"
 		SteerSpeed="0.02"
 		TruckImage="pacificP1mchr"
@@ -38,11 +38,11 @@
 		HideDistance="250"
 		ShadowHideDistance="100"
 	>
-		<WinchUpgradeSocket Default="w_heavy_trucks_default" IsUpgradable="true" Type="winches_heavy_trucks" />
+		<WinchUpgradeSocket Default="w_heavy_trucks_default" IsUpgradable="true" Type="winches_heavy_trucks,winches_heavy_trucks_custom" />
 		<Wheels
 			DefaultRim="rim_1"
 			DefaultTire="offroad"
-			DefaultWheelType="wheels_avenhorn_a15"
+			DefaultWheelType="wheels_avenhorn_a15_OP"
 		>
 			<Wheel _template="FrontWheel" Pos="(2.72; 0.788; 1.25)" />
 			<Wheel _template="FrontWheel" RightSide="true" Pos="(2.72; 0.788; 1.25)" />
@@ -52,8 +52,8 @@
 			<Wheel _template="RearWheel" RightSide="true" Pos="(-5.606; 0.787; 1.15)" />
 		</Wheels>
 		<SuspensionSocket
-			Default="pacific_p12C_suspension_default"
-			Type="s_pacific_p12C"
+			Default="pacific_p12CH_suspension_default"
+			Type="s_pacific_p12C_heavy"
 			MaxWheelRadiusWithoutSuspension="0.8"
 		/>
 		<SteeringWheel Frame="BoneSteering" />
@@ -75,7 +75,7 @@
 			Origin="(2.55; 2.3; 0)"
 			ParentFrame="BoneCabin_cdt"
 		>
-			<Reverse		Sound="trucks/ws_6900xd_twin/ws_6900xd_twin_back_beeper" />
+		<!--<Reverse		Sound="trucks/ws_6900xd_twin/ws_6900xd_twin_back_beeper" />-->
 			<BrakesSqueal	Sound="trucks/pacific_p12w/pacific_p12w_brakes_squeal" />
 			<BrakePull		Sound="trucks/pacific_p12w/pacific_p12w_brake_pull" />
 			<BrakeRelease	Sound="trucks/pacific_p12w/pacific_p12w_brake_release" />
@@ -140,21 +140,29 @@
 			<DamageArea Type="Engine" Min="(2; 1.5; -0.9)" Max="(3.9; 2.9; 0.9)" ParentFrame="BoneCabin_cdt" />
 			<DamageArea Type="FuelTank" Min="(-1.2; 0.8; -1.4)" Max="(1.4; 1.6; 1.4)" ParentFrame="BoneCabin_cdt" />
 		</Damage>
-		<CompatibleWheels OffsetZ="0.05" Scale="0.80" RearOffsetZ="-0.1" Type="wheels_heavy_offroad_p12" />
-		<CompatibleWheels OffsetZ=".0" Scale="0.80" RearOffsetZ="0.05" Type="wheels_heavy_double2_p12" />
-		<CompatibleWheels OffsetZ="-0.1" Scale="0.80" RearOffsetZ="-0.1" Type="wheels_heavy_single_p12" />
+	<!--<CompatibleWheels OffsetZ="0.05" Scale="0.80" RearOffsetZ="-0.1" Type="wheels_heavy_offroad_p12" />-->
+	<!--<CompatibleWheels OffsetZ=".0" Scale="0.80" RearOffsetZ="0.05" Type="wheels_heavy_double2_p12" />-->
+	<!--<CompatibleWheels OffsetZ="-0.1" Scale="0.80" RearOffsetZ="-0.1" Type="wheels_heavy_single_p12" />-->
 		
-		<CompatibleWheels OffsetZ="0.085" RearOffsetZ="-0.1" Scale="0.80" Type="wheels_heavy_offroad_single_p12" />
-		<CompatibleWheels OffsetZ="0.085" Scale="0.80" Type="wheels_heavy_offroad_double_p12" />
-		<CompatibleWheels OffsetZ="0.085" Scale="0.80" Type="wheels_heavy_allterrain_double_p12" />
-		<CompatibleWheels OffsetZ="0.2" RearOffsetZ="-0.1" Scale="0.80" Type="wheels_heavy_mudtires_single_p12" />
-		<CompatibleWheels OffsetZ="0.2" RearOffsetZ="-0.1" Scale="0.80" Type="wheels_heavy_mudtires_single2_p12" />
+	<!--<CompatibleWheels OffsetZ="0.085" RearOffsetZ="-0.1" Scale="0.80" Type="wheels_heavy_offroad_single_p12" />-->
+	<!--<CompatibleWheels OffsetZ="0.085" Scale="0.80" Type="wheels_heavy_offroad_double_p12" />-->
+	<!--<CompatibleWheels OffsetZ="0.085" Scale="0.80" Type="wheels_heavy_allterrain_double_p12" />-->
+	<!--<CompatibleWheels OffsetZ="0.2" RearOffsetZ="-0.1" Scale="0.80" Type="wheels_heavy_mudtires_single_p12" />-->
+	<!--<CompatibleWheels OffsetZ="0.2" RearOffsetZ="-0.1" Scale="0.80" Type="wheels_heavy_mudtires_single2_p12" />-->
 		
-		<CompatibleWheels OffsetZ="0.2" RearOffsetZ="0.2" Scale="0.80" Type="wheels_avenhorn_a15" />
-		<CompatibleWheels OffsetZ="0.2" RearOffsetZ="0.2" Scale="0.80" Type="wheels_western_star_6900xd" />
-		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="-0.05" Scale="0.85" Type="wheels_offroad_single_sleiter_st833_chimera" />
-		<CompatibleWheels OffsetZ="0.2" RearOffsetZ="-0.01" Scale="0.80" Type="wheels_heavy_padera_std4" />
-		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="-0.05" Scale="0.85" Type="wheels_kenworth_963" />
+
+	<!--Singles-->
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="0.0" Scale="0.90" Type="wheels_offroad_single_sleiter_st833_chimera_OP" />
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="0.0" Scale="0.90" Type="wheels_kenworth_963_OP" />
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="0.0" Scale="0.90" Type="wheels_scout_burlak_offroad_OP" />
+	<!--Wide Singles-->
+		<CompatibleWheels OffsetZ="0.15" RearOffsetZ="0.05" Scale="0.90" Type="wheels_heavy_padera_std4_OP" />
+		<CompatibleWheels OffsetZ="0.15" RearOffsetZ="0.05" Scale="0.90" Type="wheels_heavy_mercedes_benz_zetros_6x6_OP" />
+	<!--Duels-->
+		<CompatibleWheels OffsetZ="0.17" RearOffsetZ="0.28" Scale="0.90" Type="wheels_avenhorn_a15_OP" />
+		<CompatibleWheels OffsetZ="0.2" RearOffsetZ="0.19" Scale="0.90" Type="wheels_western_star_6900xd_OP" />
+		<CompatibleWheels OffsetZ="0.18" RearOffsetZ="0.17" Scale="0.90" Type="wheels_kenworth_990_OP" />
+
 
 		<Camera Center="(-2.5; 0; 0)" ParentFrame="BoneCabin_cdt">
 			<Cockpit
