@@ -11,9 +11,9 @@
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_avenhorn_a15" Name="offroad">
 			<WheelFriction 
 				_template="HeavyMudtires"
-				BodyFriction="1.7"
-				BodyFrictionAsphalt="0.5"
-				SubstanceFriction="3.1"
+				BodyFriction="3,0"
+				BodyFrictionAsphalt="2.5"
+				SubstanceFriction="3.0"
 			/>
 			<GameData
 				Price="7500"

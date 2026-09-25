@@ -7,14 +7,14 @@
 		</Offroad>
 	</TruckTire>
 </_templates>
-<TruckWheels DamageCapacity="50" Radius="1" Width="0.611" WidthRear="1.254">
+<TruckWheels DamageCapacity="100" Radius="1" Width="0.611" WidthRear="1.254">
 	<TruckTires>
 		<TruckTire _template="Offroad" Mesh="wheels/tire_kenworth_990" Name="offroad">
 			<WheelFriction 
 				_template="Offroad"
-				BodyFriction="3.1"
-				BodyFrictionAsphalt="1.5"
-				SubstanceFriction="3.4"
+				BodyFriction="3.0"
+				BodyFrictionAsphalt="2.5"
+				SubstanceFriction="3.0"
 			/>
 			<GameData
 				Price="6000"

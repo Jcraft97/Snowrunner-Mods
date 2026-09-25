@@ -4,7 +4,7 @@
 		_template="Normal"
 		BrokenWheelDamageMultiplier="2"
 		CriticalDamageThreshold="0.6"
-		DamageCapacity="260"
+		DamageCapacity="300"
 		Name="pacific_p12CH_suspension_default"
 	>
 		<Suspension Damping="0.41" Height="0.15" Strength="0.042" WheelType="front" BrokenSuspensionMax="0.2" SuspensionMin="-0.55" />
@@ -26,7 +26,7 @@
 		_template="Normal"
 		BrokenWheelDamageMultiplier="2"
 		CriticalDamageThreshold="0.6"
-		DamageCapacity="260"
+		DamageCapacity="300"
 		Name="pacific_p12CH_suspension_stiff"
 	>
 		<Suspension Damping="0.50" Height="0.15" Strength="0.060" WheelType="front" BrokenSuspensionMax="0.2" SuspensionMin="-0.4" />

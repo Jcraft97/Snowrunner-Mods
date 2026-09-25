@@ -1,0 +1,44 @@
+<WinchVariants>
+	<Winch
+		Name="w_heavy_trucks_custom"
+		Length="30"
+		StrengthMult="3.0"
+		IsEngineIgnitionRequired="true"
+	>
+		<GameData
+			Price="30000"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<WinchParams
+			/>
+			<UiDesc
+				UiDesc="30M - 300%"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="Custom Heavy"
+			/>
+		</GameData>
+	</Winch>
+	<Winch
+		Name="w_heavy_trucks_custom_offline"
+		Length="30"
+		StrengthMult="3.0"
+		IsEngineIgnitionRequired="false"
+	>
+		<GameData
+			Price="35000"
+			UnlockByExploration="false"
+			UnlockByRank="1"
+		>
+			<WinchParams
+			/>
+			<UiDesc
+				UiDesc="30M - 300%"
+				UiIcon30x30=""
+				UiIcon40x40=""
+				UiName="Custom Heavy Offline"
+			/>
+		</GameData>
+	</Winch>
+</WinchVariants>

@@ -12,8 +12,8 @@
 			<WheelFriction 
 				_template="Offroad"
 				BodyFriction="3.0"
-				BodyFrictionAsphalt="0.8"
-				SubstanceFriction="1.5"
+				BodyFrictionAsphalt="2.5"
+				SubstanceFriction="3.0"
 			/>
 			<GameData
 				Price="7500"

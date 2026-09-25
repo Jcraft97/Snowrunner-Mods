@@ -2,12 +2,12 @@
 	<TruckTire>
 		<Mudtires Mass="400" RearMassScale="1.5">
 			<WheelTracks _template="Default" />
-			<WheelSoftness _template="Stiff" />
+			<WheelSoftness _template="Average" />
 		</Mudtires>
 	</TruckTire>
 </_templates>
 <TruckWheels
-	DamageCapacity="50"
+	DamageCapacity="100"
 	Radius="1"
 	RadiusRear="1"
 	Width="0.726"
@@ -15,7 +15,12 @@
 >
 	<TruckTires>
 		<TruckTire _template="Mudtires" Mesh="wheels/tire_padera_std4" Name="mudtire_padera_std4">
-			<WheelFriction _template="Mudtires" SubstanceFriction="2.18"/>
+			<WheelFriction 
+				_template="Mudtires"
+				BodyFriction="3,0"
+				BodyFrictionAsphalt="2.5"
+				SubstanceFriction="3.0"
+			/>
 			<GameData
 				Price="7500"
 				UnlockByExploration="false"

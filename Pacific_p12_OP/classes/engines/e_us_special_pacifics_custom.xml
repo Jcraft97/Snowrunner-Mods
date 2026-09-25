@@ -55,9 +55,9 @@
 	<Engine
 		_template="USSpecialEngine"
 		CriticalDamageThreshold="0.5"
-		DamageCapacity="280"
+		DamageCapacity="300"
 		DamagedConsumptionModifier="1.5"
-		FuelConsumption="14.0"
+		FuelConsumption="15.0"
 		Name="us_special_engine_3"
 		Torque="288000"
 		DamagedMinTorqueMultiplier="1.0"
