@@ -150,13 +150,16 @@
 	<!--<CompatibleWheels OffsetZ="0.2" RearOffsetZ="-0.1" Scale="0.80" Type="wheels_heavy_mudtires_single_p12" />-->
 	<!--<CompatibleWheels OffsetZ="0.2" RearOffsetZ="-0.1" Scale="0.80" Type="wheels_heavy_mudtires_single2_p12" />-->
 		
-		<CompatibleWheels OffsetZ="0.2" RearOffsetZ="0.2" Scale="0.90" Type="wheels_avenhorn_a15_OP" />
-		<CompatibleWheels OffsetZ="0.2" RearOffsetZ="0.2" Scale="0.90" Type="wheels_western_star_6900xd_OP" />
-		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="-0.05" Scale="0.90" Type="wheels_offroad_single_sleiter_st833_chimera_OP" />
-		<CompatibleWheels OffsetZ="0.2" RearOffsetZ="-0.01" Scale="0.90" Type="wheels_heavy_padera_std4_OP" />
-		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="-0.05" Scale="0.90" Type="wheels_kenworth_963_OP" />
-		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="-0.05" Scale="0.90" Type="wheels_scout_burlak_offroad_OP" />
-		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="-0.05" Scale="0.90" Type="wheels_kenworth_990_OP" />
+
+	<!--Singles-->
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="0.0" Scale="0.90" Type="wheels_offroad_single_sleiter_st833_chimera_OP" />
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="0.0" Scale="0.90" Type="wheels_kenworth_963_OP" />
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="0.0" Scale="0.90" Type="wheels_scout_burlak_offroad_OP" />
+		<CompatibleWheels OffsetZ="0.15" RearOffsetZ="0.05" Scale="0.90" Type="wheels_heavy_padera_std4_OP" />
+	<!--Duels-->
+		<CompatibleWheels OffsetZ="0.17" RearOffsetZ="0.28" Scale="0.90" Type="wheels_avenhorn_a15_OP" />
+		<CompatibleWheels OffsetZ="0.2" RearOffsetZ="0.19" Scale="0.90" Type="wheels_western_star_6900xd_OP" />
+		<CompatibleWheels OffsetZ="0.18" RearOffsetZ="0.17" Scale="0.90" Type="wheels_kenworth_990_OP" />
 
 
 		<Camera Center="(-2.5; 0; 0)" ParentFrame="BoneCabin_cdt">
