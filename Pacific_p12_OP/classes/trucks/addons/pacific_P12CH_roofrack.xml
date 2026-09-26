@@ -78,7 +78,7 @@
 			UiIcon40x40=""
 			UiName="UI_TUNING_ROOFRACK_REGULAR_NAME"
 		/>
-		<InstallSocket Type="PacificRoofrack2" />
+		<InstallSocket Type="pacific_P12CH_roofrack" />
 	</GameData>
 	<FuelHide>
 		<Mesh Frame="fuel" HideThreshold="0.0" />

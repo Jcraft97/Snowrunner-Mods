@@ -26,7 +26,7 @@
 			UiIcon40x40=""
 			UiName="UI_ADDON_FRAME_KUNG_AVENHORN_A15_NAME"
 		/>
-		<InstallSocket Type="PacificP12Kung" />
+		<InstallSocket Type="PacificP12CHKung" />
 	</GameData>
 	<FuelMass>
 		<Body Mass="840" />
