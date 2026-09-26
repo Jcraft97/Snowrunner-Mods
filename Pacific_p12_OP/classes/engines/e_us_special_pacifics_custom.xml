@@ -59,7 +59,7 @@
 		DamagedConsumptionModifier="1.5"
 		FuelConsumption="15.0"
 		Name="us_special_engine_3"
-		Torque="288000"
+		Torque="300000"
 		DamagedMinTorqueMultiplier="1.0"
 		DamagedMaxTorqueMultiplier="0.7"
 	>

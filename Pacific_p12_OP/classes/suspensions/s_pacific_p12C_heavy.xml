@@ -4,7 +4,7 @@
 		_template="Normal"
 		BrokenWheelDamageMultiplier="2"
 		CriticalDamageThreshold="0.6"
-		DamageCapacity="300"
+		DamageCapacity="400"
 		Name="pacific_p12CH_suspension_default"
 	>
 		<Suspension Damping="0.41" Height="0.15" Strength="0.042" WheelType="front" BrokenSuspensionMax="0.2" SuspensionMin="-0.55" />
@@ -23,24 +23,24 @@
 		</GameData>
 	</SuspensionSet>
 	<SuspensionSet
-		_template="Normal"
+		_template="High"
 		BrokenWheelDamageMultiplier="2"
 		CriticalDamageThreshold="0.6"
-		DamageCapacity="300"
-		Name="pacific_p12CH_suspension_stiff"
+		DamageCapacity="400"
+		Name="pacific_p12CH_suspension_high"
 	>
-		<Suspension Damping="0.50" Height="0.15" Strength="0.060" WheelType="front" BrokenSuspensionMax="0.2" SuspensionMin="-0.4" />
-		<Suspension Damping="0.35" Height="0.05" Strength="0.055" WheelType="rear" BrokenSuspensionMax="0.3" SuspensionMin="-0.4" />
+		<Suspension Damping="0.35" Height="0.2" Strength="0.055" WheelType="front" BrokenSuspensionMax="0.2" SuspensionMin="-0.5" SuspensionMax="0.5" />
+		<Suspension Damping="0.35" Height="0.2" Strength="0.055" WheelType="rear" BrokenSuspensionMax="0.2" SuspensionMin="-0.5" SuspensionMax="0.5" />
 		<GameData
 			Price="7200"
 			UnlockByExploration="false"
 			UnlockByRank="1"
 		>
 			<UiDesc
-				UiDesc="A stiff suspension kit for heavy loads"
+				UiDesc="UI_SUSPENSION_HIGH_DESC"
 				UiIcon30x30=""
 				UiIcon40x40=""
-				UiName="Stiff"
+				UiName="UI_SUSPENSION_TYPE_HIGH_NAME"
 			/>
 		</GameData>
 	</SuspensionSet>

@@ -54,7 +54,7 @@
 		<SuspensionSocket
 			Default="pacific_p12CH_suspension_default"
 			Type="s_pacific_p12C_heavy"
-			MaxWheelRadiusWithoutSuspension="0.8"
+			MaxWheelRadiusWithoutSuspension="0.9"
 		/>
 		<SteeringWheel Frame="BoneSteering" />
 		<SteeringRack
@@ -107,7 +107,7 @@
 		<LimitedFluid Center="(-0.382; 1.193; -1.065)" SizeX="1.522" SizeY="0.754" SizeZ="0.620" Type="Box" />
 		<Intake Dir="(1; 0; 0)" Origin="(3.91; 2.13; 0)" Size="1.2" />
 		<GearboxSocket Default="g_special_default" Type="gearboxes_special" />
-		<FuelTank DamageCapacity="50" />
+		<FuelTank DamageCapacity="100" />
 		<EngineSocket Default="us_special_engine_1" Type="e_us_special_pacifics_custom" />
 		<Driver
 			AnimationSet="HeavyTruck"
@@ -132,7 +132,7 @@
 			<Gauge Damping="0.99" Dir="(-0.941; 0.252; 0.227)" InputRange="(0;1)" InputType="engineEnabled" Mesh="trucks/arrows/pacific_p12w_arrow_3" Org="(1.611; 2.964; 0.046)" OutputAngles="(-153; -15)" />
 		</Dashboard>
 		<Damage
-			Capacity="600"
+			Capacity="800"
 			SensationMin="(0.412; 2.204; -0.949)"
 			SensationMax="(2.24; 2.945; 0.949)"
 			ParentFrame="BoneCabin_cdt"
@@ -152,16 +152,16 @@
 		
 
 	<!--Singles-->
-		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="0.0" Scale="0.90" Type="wheels_offroad_single_sleiter_st833_chimera_OP" />
-		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="0.0" Scale="0.90" Type="wheels_kenworth_963_OP" />
-		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="0.0" Scale="0.90" Type="wheels_scout_burlak_offroad_OP" />
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="0.0" Scale="0.92" Type="wheels_offroad_single_sleiter_st833_chimera_OP" />
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="0.0" Scale="0.92" Type="wheels_kenworth_963_OP" />
+		<CompatibleWheels OffsetZ="0.1" RearOffsetZ="0.0" Scale="0.92" Type="wheels_scout_burlak_offroad_OP" />
 	<!--Wide Singles-->
-		<CompatibleWheels OffsetZ="0.15" RearOffsetZ="0.05" Scale="0.90" Type="wheels_heavy_padera_std4_OP" />
-		<CompatibleWheels OffsetZ="0.15" RearOffsetZ="0.05" Scale="0.90" Type="wheels_heavy_mercedes_benz_zetros_6x6_OP" />
+		<CompatibleWheels OffsetZ="0.15" RearOffsetZ="0.05" Scale="0.92" Type="wheels_heavy_padera_std4_OP" />
+		<CompatibleWheels OffsetZ="0.15" RearOffsetZ="0.05" Scale="0.92" Type="wheels_heavy_mercedes_benz_zetros_6x6_OP" />
 	<!--Duels-->
-		<CompatibleWheels OffsetZ="0.17" RearOffsetZ="0.28" Scale="0.90" Type="wheels_avenhorn_a15_OP" />
-		<CompatibleWheels OffsetZ="0.2" RearOffsetZ="0.19" Scale="0.90" Type="wheels_western_star_6900xd_OP" />
-		<CompatibleWheels OffsetZ="0.18" RearOffsetZ="0.17" Scale="0.90" Type="wheels_kenworth_990_OP" />
+		<CompatibleWheels OffsetZ="0.17" RearOffsetZ="0.28" Scale="0.92" Type="wheels_avenhorn_a15_OP" />
+		<CompatibleWheels OffsetZ="0.2" RearOffsetZ="0.19" Scale="0.92" Type="wheels_western_star_6900xd_OP" />
+		<CompatibleWheels OffsetZ="0.18" RearOffsetZ="0.17" Scale="0.92" Type="wheels_kenworth_990_OP" />
 
 
 		<Camera Center="(-2.5; 0; 0)" ParentFrame="BoneCabin_cdt">
@@ -261,10 +261,10 @@
 					</Constraint>
 				</Body>
 				<Body _template="Mudguard" ModelFrame="BoneLeftMudguard_cdt">
-					<Constraint AxisLocal="(0; 0; 1)" MinLimit="-30" MaxLimit="10" />
+					<Constraint AxisLocal="(0; 0; 1)" MinLimit="-30" MaxLimit="3" />
 				</Body>
 				<Body _template="Mudguard" ModelFrame="BoneRightMudguard_cdt">
-					<Constraint AxisLocal="(0; 0; 1)" MinLimit="-70" MaxLimit="10" />
+					<Constraint AxisLocal="(0; 0; 1)" MinLimit="-70" MaxLimit="3" />
 				</Body>
 			</Body>
 		</Body>
@@ -418,8 +418,8 @@
 			<Socket Names="PacificP12WCabinProtector_custom" NamesBlock="LogLiftKenworth" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>-->
 
-		<AddonSockets DefaultAddon="derry_longhorn_3194_fender_default">
-			<Socket Names="DerryLonghorn3194Fender" Offset="(-0.6; 0.4; 0)" ParentFrame="BoneChassis_cdt" />
+		<AddonSockets>
+			<Socket Names="DerryLonghorn3194Fender" Offset="(-0.62; 0.3; 0)" ParentFrame="BoneChassis_cdt" />
 		</AddonSockets>
 
 		<!-- FRAME ADDONS -->
