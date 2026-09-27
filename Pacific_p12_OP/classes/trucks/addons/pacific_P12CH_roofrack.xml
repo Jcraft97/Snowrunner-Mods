@@ -8,7 +8,7 @@
 	</Body>
 </_templates>
 <TruckAddon>
-	<TruckData FuelCapacity="80" RepairsCapacity="200">
+	<TruckData FuelCapacity="150" RepairsCapacity="400">
 		<LimitedFluid Center="(1.588; 2.467; 0.307)" SizeX="0.371" SizeY="0.117" SizeZ="0.312" Type="Box" />
 		<LimitedFluid Center="(1.588; 2.467; 0.664)" SizeX="0.371" SizeY="0.117" SizeZ="0.312" Type="Box" />
 		<LimitedFluid Center="(1.138; 2.467; 0.151)" SizeX="0.312" SizeY="0.117" SizeZ="0.371" Type="Box" />

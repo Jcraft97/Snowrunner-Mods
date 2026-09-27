@@ -186,7 +186,7 @@
 	<PhysicsModel Mesh="trucks/pacific_p12w">
 		<NetSync Legacy="false" />
 		<Body
-			CenterOfMassOffset="(-0.5; -0.5; 0)"
+			CenterOfMassOffset="(-0.5; -2; 0)"
 			ImpactType="Truck"
 			Mass="15000"
 			ModelFrame="BoneChassis_cdt"
@@ -497,7 +497,6 @@
 			<Socket Names="" Offset="(0; 0; 0)" NamesBlock="LogLiftKenworth, MetalDetector, CranePacificP12CH, TatraCrane_custom, MinicraneKenworth,PaderaSTD4SpareWheels,SleiterST833ChimeraSpareWheel_custom" ParentFrame="BoneChassis_cdt" />
 
 			<Socket Names="p12CH_Flatbed" Offset="(-1.15; 0; 0)" NamesBlock="LogLiftKenworth,MetalDetector,TatraCrane_custom,SleiterST833ChimeraSpareWheel_custom,DerryLonghorn3194Fender" ParentFrame="BoneChassis_cdt" />
-
 		</AddonSockets>
 		<AddonSockets>
 			<Socket
@@ -506,6 +505,14 @@
 				Offset="(-1.997; 0.768; 0)"
 				ParentFrame="BoneChassis_cdt"
 			/>
+		</AddonSockets>
+		
+		<!--Custom Long Logs-->
+		<AddonSockets>
+			<Socket Names="BunkLogCFront" Offset="(-4; 1.825; 0)" ParentFrame="BoneChassis_cdt" />
+		</AddonSockets>
+		<AddonSockets>
+			<Socket Names="BunkLogCRear" Offset="(-6; 1.825; 0)" Dir="(0; 0; -1;)" ParentFrame="BoneChassis_cdt" />
 		</AddonSockets>
 		
 		<!-- CRANES -->
