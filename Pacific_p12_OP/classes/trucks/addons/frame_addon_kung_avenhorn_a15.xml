@@ -2,8 +2,8 @@
 <TruckAddon>
 	<TruckData
 		FuelCapacity="300"
-		RepairsCapacity="300"
-		WheelRepairsCapacity="2"
+		RepairsCapacity="600"
+		WheelRepairsCapacity="4"
 	/>
 	<PhysicsModel Mesh="trucks/addons/frame_addon_kung_avenhorn_a15">
 		<Body Mass="400" ModelFrame="BoneChassis_cdt">

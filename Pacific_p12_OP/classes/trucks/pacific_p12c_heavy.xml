@@ -30,7 +30,7 @@
 		EngineIconScale="1.6"
 		EngineStartDelay="1.8"
 		ExhaustStartTime="1.5"
-		FuelCapacity="453"
+		FuelCapacity="567"
 		Responsiveness="0.15"
 		SteerSpeed="0.02"
 		TruckImage="pacificP1mchr"
@@ -363,7 +363,7 @@
 		<CraneSocket Pos="(-0.827; 1.674; -0.534)" />
 		<!-- VISUAL ADDONS -->
 		<AddonSockets>
-			<Socket Names="pacific_P12CH_roofrack" Offset="(-0.3; 1.5; 0)" NamesBlock="PacificP12CHGabarite,PacificP12CHHorn,PacificP12Kung,Pacific512SpotLight,Pacific512Beacon,PacificP12CHBeacon" ParentFrame="BoneCabin_cdt" />
+			<Socket Names="pacific_P12CH_roofrack" Offset="(-0.3; 1.5; 0)" NamesBlock="PacificP12CHGabarite,PacificP12CHHorn,PacificP12CHKung,Pacific512SpotLight,Pacific512Beacon,PacificP12CHBeacon" ParentFrame="BoneCabin_cdt" />
 		</AddonSockets>
 		<AddonSockets DefaultAddon="pacific_p12CH_bumper_default">
 			<Socket Names="PacificP12CHBumper" Offset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />
@@ -401,13 +401,13 @@
 		
 		<!-- VISUAL FRAME ADDONS -->
 		<AddonSockets>
-			<Socket Names="PacificP12CHSpareWheel" Offset="(0; 0; 0)" NamesBlock="LogLiftKenworth, PacificP12WCabinProtector_custom, FlatbedKenworthT880, FrameAddonMackTerraPro3, SleiterST833ChimeraFlatbed2, SleiterST833ChimeraFlatbed3,TatraCrane_custom,p12CH_Flatbed" ParentFrame="BoneChassis_cdt" >
+			<Socket Names="PacificP12CHSpareWheel" Offset="(0; 0; 0)" NamesBlock="PacificP12WCabinProtector_custom, FlatbedKenworthT880, FrameAddonMackTerraPro3, SleiterST833ChimeraFlatbed2, SleiterST833ChimeraFlatbed3,TatraCrane_custom,p12CH_Flatbed" ParentFrame="BoneChassis_cdt" >
 				<ExtraParent Frame="BoneCabin_cdt" />
 				<AddonsShift Offset="(0.15; 0; 0)" Types="CranePacificP12CH, FrameAddonTank" />
 			</Socket>
 			<Socket Names="PaderaSTD4SpareWheels" Offset="(-1.6; 0.6; 0)" NamesBlock="LogLiftKenworth, TatraCrane_custom,BigCraneUs,BigCrane" ParentFrame="BoneChassis_cdt" />
 			<Socket Names="SleiterST833ChimeraSpareWheel_custom" Offset="(-1.7; 0.05; 0)" NamesBlock="LogLiftKenworth,TatraCrane_custom,BigCraneUs,BigCrane,FlatbedKenworthT880,FrameAddon3PacificP16,FrameAddonLogMedium" ParentFrame="BoneChassis_cdt" />
-			<Socket Names="PacificP12CHKung" Offset="(-0.4; 0.25; 0)" NamesBlock="LogLiftKenworth,TatraCrane_custom,BigCraneUs,BigCrane,FrameAddonMaintainerBig,SleiterST833ChimeraFlatbed2,SleiterST833ChimeraFlatbed3" ParentFrame="BoneChassis_cdt" />
+			<Socket Names="PacificP12CHKung" Offset="(-0.4; 0.25; 0)" NamesBlock="TatraCrane_custom,BigCraneUs,BigCrane,FrameAddonMaintainerBig,SleiterST833ChimeraFlatbed2,SleiterST833ChimeraFlatbed3" ParentFrame="BoneChassis_cdt" />
 		</AddonSockets>
 		
 		<AddonSockets>	
@@ -429,7 +429,7 @@
 		<AddonSockets>
 			<Socket Names="FrameAddonFlatbed2PacificP16" Offset="(-3.9; 1.82; 0)" NamesBlock="LogLiftKenworth, MetalDetector" ParentFrame="BoneChassis_cdt">
 				<AddonsShift Offset="(-0.6; 0; 0)" Types="CranePacificP12CH, PacificP12CHSpareWheel" />
-				<AddonsShift Offset="(-0.2; 0; 0)" Types="CranePacificP12CH, PacificP12Kung" />
+				<AddonsShift Offset="(-0.2; 0; 0)" Types="CranePacificP12CH, PacificP12CHKung" />
 				<AddonsShift Offset="(-0.72; 0; 0)" Types="SleiterST833ChimeraSpareWheel_custom" />
 			</Socket>
 
@@ -437,15 +437,15 @@
 				<AddonsShift Offset="(-0.7; 0; 0)" Types="CranePacificP12CH" TrailerNamesBlock="Trailer, LogTrailer" />
 				<AddonsShift Offset="(-1.2; 0; 0)" Types="MinicraneKenworth" TrailerNamesBlock="Trailer, LogTrailer" />
 				<AddonsShift Offset="(-0.8; 0; 0)" Types="PaderaSTD4SpareWheels" TrailerNamesBlock="Trailer, LogTrailer" />
-				<AddonsShift Offset="(-1.2; 0; 0)" Types="PacificP12Kung" TrailerNamesBlock="Trailer, LogTrailer" />
+				<AddonsShift Offset="(-1.2; 0; 0)" Types="PacificP12CHKung" TrailerNamesBlock="Trailer, LogTrailer" />
 			</Socket>
 			
 			<Socket Names="FrameAddonTank" NamesBlock="LogLiftKenworth,SleiterST833ChimeraSpareWheel_custom,TatraCrane_custom" Offset="(-4.36; 1.82; 0)" ParentFrame="BoneChassis_cdt" >
 				<AddonsShift Offset="(-0.5; 0; 0)" Types="PacificP12CHSpareWheel" />
 				<AddonsShift Offset="(-0.45; 0; 0)" Types="PacificP12CHSpareWheel, CranePacificP12CH" TrailerNamesBlock="Trailer, LogTrailer" />
-				<AddonsShift Offset="(-0.7; 0; 0)" Types="CranePacificP12CH, PacificP12Kung" TrailerNamesBlock="Trailer, LogTrailer" />
+				<AddonsShift Offset="(-0.7; 0; 0)" Types="CranePacificP12CH, PacificP12CHKung" TrailerNamesBlock="Trailer, LogTrailer" />
 			</Socket>
-			<Socket Names="FrameAddonTankLong" Offset="(-3.9; 1.82; 0)" NamesBlock="LogLiftKenworth,SleiterST833ChimeraSpareWheel_custom,TatraCrane_custom,Trailer,LogTrailer,MetalDetector,CranePacificP12CH,MinicraneKenworth,PaderaSTD4SpareWheels,PacificP12CHSpareWheel,PacificP12Kung" ParentFrame="BoneChassis_cdt" />
+			<Socket Names="FrameAddonTankLong" Offset="(-3.9; 1.82; 0)" NamesBlock="LogLiftKenworth,SleiterST833ChimeraSpareWheel_custom,TatraCrane_custom,Trailer,LogTrailer,MetalDetector,CranePacificP12CH,MinicraneKenworth,PaderaSTD4SpareWheels,PacificP12CHSpareWheel,PacificP12CHKung" ParentFrame="BoneChassis_cdt" />
 
 			<Socket Names="FrameAddonMaintainerBig" NamesBlock="LogLiftKenworth, PacificP12CHSpareWheel, Trailer, LogTrailer, PacificP12WCabinProtector_custom, PaderaSTD4SpareWheels,SleiterST833ChimeraSpareWheel_custom,MinicraneKenworth" Offset="(0; 1.82; 0)" ParentFrame="BoneChassis_cdt" >
 				<AddonsShift Offset="(-0.5; 0; 0)" Types="CranePacificP12CH" />
@@ -455,15 +455,15 @@
 				<AddonsShift Offset="(-0.9; 0; 0)" Types="SleiterST833ChimeraSpareWheel_custom" ParentFrame="BoneChassis_cdt" />
 			</Socket>
 			<Socket Names="FrameAddonLogMedium" NamesBlock="MetalDetector" Offset="(-2.7; 1.821; 0)" ParentFrame="BoneChassis_cdt" >
-				<AddonsShift Offset="(-0.6; 0; 0)" Types="LogLiftKenworth" />
+				<AddonsShift Offset="(-0.65; 0; 0)" Types="LogLiftKenworth" />
 				<AddonsShift Offset="(-1; 0; 0)" Types="PacificP12CHSpareWheel" />
 				<AddonsShift Offset="(-0.2; 0; 0)" Types="PaderaSTD4SpareWheels" />
-				<AddonsShift Offset="(-0.6; 0; 0)" Types="PacificP12Kung" />
+				<AddonsShift Offset="(-0.6; 0; 0)" Types="PacificP12CHKung" />
 			</Socket>
 			
 			<Socket Names="SaddleHigh1" NamesBlock="" Offset="(-4.641; 1.821; 0)" ParentFrame="BoneChassis_cdt" />
 			<Socket Names="FrameAddonTowPlatform" NamesBlock="LogLiftKenworth, MetalDetector, PacificP12CHSpareWheel, Trailer, LogTrailer,SleiterST833ChimeraSpareWheel_custom" Offset="(-2.8; 1.82; 0)" ParentFrame="BoneChassis_cdt" >
-				<AddonsShift Offset="(-0.1; 0; 0)" Types="PacificP12Kung" />
+				<AddonsShift Offset="(-0.1; 0; 0)" Types="PacificP12CHKung" />
 			</Socket>
 			<Socket Names="BigCraneUs" NamesBlock="LogLiftKenworth, MetalDetector, PacificP12CHSpareWheel, PacificP12WCabinProtector_custom" Offset="(-4.064; 1.921; 0)" ParentFrame="BoneChassis_cdt">
 				<ExtraParent Frame="BoneChassis_cdt" Offset="(0; -0.1; 0)" />
@@ -479,23 +479,23 @@
 			<Socket Names="SleiterST833ChimeraFlatbed3" Offset="(-1.95; 0; 0)" NamesBlock="LogLiftKenworth, MetalDetector, CranePacificP12CH, TatraCrane_custom, MinicraneKenworth,PaderaSTD4SpareWheels,SleiterST833ChimeraSpareWheel_custom" ParentFrame="BoneChassis_cdt" />
 
 			<Socket Names="FrameAddonMackTerraPro" Offset="(-3.1; 0.75; 0)" NamesBlock="SleiterST833ChimeraSpareWheel_custom,TatraCrane_custom,MetalDetector" ParentFrame="BoneChassis_cdt" >
-				<AddonsShift Offset="(-0.4; 0; 0)" Types="CranePacificP12CH, PacificP12Kung" />
+				<AddonsShift Offset="(-0.4; 0; 0)" Types="CranePacificP12CH, PacificP12CHKung" />
 			</Socket>
 			<Socket Names="FrameAddonMackTerraPro3" Offset="(-1.9; 0.75; 0)" NamesBlock="SleiterST833ChimeraSpareWheel_custom,TatraCrane_custom,LogLiftKenworth,MetalDetector" ParentFrame="BoneChassis_cdt" >
 				<AddonsShift Offset="(-0.7; 0; 0)" Types="PaderaSTD4SpareWheels" TrailerNamesBlock="Trailer, LogTrailer" />
 				<AddonsShift Offset="(-1.1; 0; 0)" Types="MinicraneKenworth" TrailerNamesBlock="Trailer, LogTrailer" />
 				<AddonsShift Offset="(-0.6; 0; 0)" Types="CranePacificP12CH" TrailerNamesBlock="Trailer, LogTrailer" />
-				<AddonsShift Offset="(-1.15; 0; 0)" Types="PacificP12Kung" TrailerNamesBlock="Trailer, LogTrailer" />
+				<AddonsShift Offset="(-1.15; 0; 0)" Types="PacificP12CHKung" TrailerNamesBlock="Trailer, LogTrailer" />
 			</Socket>
 			<Socket Names="TatraSideboard" Offset="(-2.6; 0.65; 0)" NamesBlock="MetalDetector" ParentFrame="BoneChassis_cdt" >
 				<AddonsShift Offset="(-0.16; 0; 0)" Types="SleiterST833ChimeraSpareWheel_custom" />
 				<AddonsShift Offset="(0.4; 0; 0)" Types="TatraCrane_custom" />
-				<AddonsShift Offset="(-0.2; 0; 0)" Types="CranePacificP12CH, PacificP12Kung" />
+				<AddonsShift Offset="(-0.2; 0; 0)" Types="CranePacificP12CH, PacificP12CHKung" />
 			</Socket>
-			<Socket Names="TatraFrameAddonTank" Offset="(-2.7; 0.65; 0)" NamesBlock="MetalDetector" ParentFrame="BoneChassis_cdt" />
-			
+			<Socket Names="TatraFrameAddonTank" Offset="(-2.7; 0.65; 0)" ParentFrame="BoneChassis_cdt" 
+				NamesBlock="LogLiftKenworth, MetalDetector, CranePacificP12CH, TatraCrane_custom, MinicraneKenworth,PaderaSTD4SpareWheels,SleiterST833ChimeraSpareWheel_custom,PacificP12CHKung,PacificP12CHSpareWheel"
+			/>
 			<Socket Names="FlatbedKenworth1" Offset="(0.8; 0; 0)" NamesBlock="LogLiftKenworth, MetalDetector, CranePacificP12CH, TatraCrane_custom, MinicraneKenworth,PaderaSTD4SpareWheels,SleiterST833ChimeraSpareWheel_custom" ParentFrame="BoneChassis_cdt" />
-			<Socket Names="" Offset="(0; 0; 0)" NamesBlock="LogLiftKenworth, MetalDetector, CranePacificP12CH, TatraCrane_custom, MinicraneKenworth,PaderaSTD4SpareWheels,SleiterST833ChimeraSpareWheel_custom" ParentFrame="BoneChassis_cdt" />
 
 			<Socket Names="p12CH_Flatbed" Offset="(-1.15; 0; 0)" NamesBlock="LogLiftKenworth,MetalDetector,TatraCrane_custom,SleiterST833ChimeraSpareWheel_custom,DerryLonghorn3194Fender" ParentFrame="BoneChassis_cdt" />
 		</AddonSockets>
@@ -518,18 +518,21 @@
 		
 		<!-- CRANES -->
 		<AddonSockets>
-			<Socket Names="LogLiftKenworth" NamesBlock="BigCraneUs, MetalDetector, FrameAddonMaintainerBig, PacificP12CHSpareWheel, PacificP12WCabinProtector_custom" Offset="(-0.95; 2.009; 0)" ParentFrame="BoneChassis_cdt">
+			<Socket Names="LogLiftKenworth" Offset="(-0.98; 2.009; 0)" NamesBlock="BigCraneUs, MetalDetector, FrameAddonMaintainerBig, PacificP12WCabinProtector_custom" ParentFrame="BoneChassis_cdt">
 				<ExtraParent Frame="BoneCabin_cdt" Offset="(0; 0; -0.07)" />
 				<ExtraParent Frame="BoneCabin_cdt" Offset="(0; 0; 0.07)" />
+
+				<AddonsShift Offset="(-1.5; 0; 0)" Types="PacificP12CHSpareWheel" />
+				<AddonsShift Offset="(-1.4; 0; 0)" Types="PacificP12CHKung" />
 			</Socket>
 			<Socket Names="CranePacificP12CH" Offset="(-0.1; 0.25; 0)" NamesBlock="BigCraneUs, MetalDetector, BigCrane, FrameAddonLogMedium, FrameAddonLogShort,PaderaSTD4SpareWheels,SleiterST833ChimeraSpareWheel_custom,PacificP12CHKung" ParentFrame="BoneChassis_cdt">
 				<AddonsShift Offset="(-1.65; 0; 0)" Types="PacificP12CHSpareWheel" />
 				<AddonsShift Offset="(0.15; 0; 0)" Types="PacificP12CHSpareWheel, FrameAddonTank" />
-				<AddonsShift Offset="(-1.3; 0; 0)" Types="PacificP12Kung" />
+				<AddonsShift Offset="(-1.3; 0; 0)" Types="PacificP12CHKung" />
 			</Socket>
 			<Socket Names="MinicraneKenworth" Offset="(-0.4; 1.83; 0)" NamesBlock="BigCraneUs, MetalDetector, BigCrane, FrameAddonLogMedium, FrameAddonLogShort,PaderaSTD4SpareWheels,SleiterST833ChimeraSpareWheel_custom"  ParentFrame="BoneChassis_cdt" >
 				<AddonsShift Offset="(-1.5; 0; 0)" Types="PacificP12CHSpareWheel" />
-				<AddonsShift Offset="(-1.2; 0; 0)" Types="PacificP12Kung" />
+				<AddonsShift Offset="(-1.2; 0; 0)" Types="PacificP12CHKung" />
 			</Socket>
 			<Socket Names="TatraCrane_custom" Offset="(-0.9; 0.55; 0)"  NamesBlock="BigCraneUs, MetalDetector, FrameAddonMaintainerBig, FrameAddonTowPlatform, BigCrane, FrameAddonLogMedium, FrameAddonLogShort,SleiterST833ChimeraSpareWheel_custom" ParentFrame="BoneChassis_cdt" />
 		</AddonSockets>
