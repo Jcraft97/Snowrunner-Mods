@@ -492,6 +492,7 @@
 				<AddonsShift Offset="(0.4; 0; 0)" Types="TatraCrane_custom" />
 				<AddonsShift Offset="(-0.2; 0; 0)" Types="CranePacificP12CH, PacificP12Kung" />
 			</Socket>
+			<Socket Names="TatraFrameAddonTank" Offset="(-2.7; 0.65; 0)" NamesBlock="MetalDetector" ParentFrame="BoneChassis_cdt" />
 			
 			<Socket Names="FlatbedKenworth1" Offset="(0.8; 0; 0)" NamesBlock="LogLiftKenworth, MetalDetector, CranePacificP12CH, TatraCrane_custom, MinicraneKenworth,PaderaSTD4SpareWheels,SleiterST833ChimeraSpareWheel_custom" ParentFrame="BoneChassis_cdt" />
 			<Socket Names="" Offset="(0; 0; 0)" NamesBlock="LogLiftKenworth, MetalDetector, CranePacificP12CH, TatraCrane_custom, MinicraneKenworth,PaderaSTD4SpareWheels,SleiterST833ChimeraSpareWheel_custom" ParentFrame="BoneChassis_cdt" />
@@ -508,12 +509,12 @@
 		</AddonSockets>
 		
 		<!--Custom Long Logs-->
-		<AddonSockets>
+	<!--<AddonSockets>
 			<Socket Names="BunkLogCFront" Offset="(-4; 1.825; 0)" ParentFrame="BoneChassis_cdt" />
 		</AddonSockets>
 		<AddonSockets>
 			<Socket Names="BunkLogCRear" Offset="(-6; 1.825; 0)" Dir="(0; 0; -1;)" ParentFrame="BoneChassis_cdt" />
-		</AddonSockets>
+		</AddonSockets>-->
 		
 		<!-- CRANES -->
 		<AddonSockets>
