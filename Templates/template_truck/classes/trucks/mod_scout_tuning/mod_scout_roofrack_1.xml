@@ -1,0 +1,104 @@
+<TruckAddon>
+	<WheelRepairsHide>
+		<Mesh Frame="wheel" HideThreshold="0.0" />
+	</WheelRepairsHide>
+	<TruckData
+		FuelCapacity="40"
+		WheelRepairsCapacity="4"
+	>
+		<LimitedFluid
+			Center="(0.05; 2.08; 0.306)"
+			SizeX="0.352"
+			SizeY="0.159"
+			SizeZ="0.455"
+			Type="Box"
+		/>
+		<LimitedFluid
+			Center="(-0.34; 2.08; 0.312)"
+			SizeX="0.352"
+			SizeY="0.162"
+			SizeZ="0.455"
+			Type="Box"
+		/>
+	</TruckData>
+	<PhysicsModel Mesh="trucks/mod_scout_tuning/mod_scout_roofrack_1">
+		<Body Mass="50">
+			<Constraint Type="Rigid" />
+		</Body>
+	</PhysicsModel>
+	<ModelAttachments>
+		<MainHeadLight>
+			<Model Org="(0.424; 2.042; -0.451)" Dir="(1; -0.1; 0)" Mesh="env/light_ray" />
+			<Model Org="(0.424; 2.042; 0.451)" Dir="(1; -0.1; 0)" Mesh="env/light_ray" />
+			<Flare
+				Color="g(255; 235; 215) x 0.6"
+				DirAngle="100"
+				Size="0.30"
+				Pos="(0.424; 2.042; -0.451)"
+				AspectRatio="1.4"
+				ColorMultAtDay="0.6"
+				Dir="(1; 0; 0)"
+				Reflections="true"
+				SizeMultAtDay="0.5"
+			/>
+			<Flare
+				Color="g(255; 235; 215) x 0.6"
+				DirAngle="100"
+				Size="0.30"
+				Pos="(0.424; 2.042; 0.451)"
+				AspectRatio="1.4"
+				ColorMultAtDay="0.6"
+				Dir="(1; 0; 0)"
+				Reflections="true"
+				SizeMultAtDay="0.5"
+			/>
+			<Flare
+				Color="g(255; 235; 215) x 0.6"
+				DirAngle="135"
+				Size="0.25"
+				Pos="(0.446; 2.059; -0.153)"
+				AspectRatio="1.4"
+				ColorMultAtDay="0.6"
+				Dir="(1; 0; 0)"
+				Reflections="true"
+				SizeMultAtDay="0.5"
+			/>
+			<Flare
+				Color="g(245; 235; 215) x 0.6"
+				DirAngle="135"
+				Size="0.25"
+				Pos="(0.446; 2.059; 0.153)"
+				AspectRatio="1.4"
+				ColorMultAtDay="0.6"
+				Dir="(1; 0; 0)"
+				Reflections="true"
+				SizeMultAtDay="0.5"
+			/>
+		</MainHeadLight>
+	</ModelAttachments>
+	<MainHeadLight
+		ExtraColor="g(255; 238; 200) x 3.5"
+		InnerCone="30"
+		OuterCone="100"
+		AttenEnd="100"
+	/>
+	<GameData
+		CameraPreset="roof"
+		Category="frame_addons"
+		IsCustomizable="true"
+		Price="1500"
+		UnlockByExploration="false"
+		UnlockByRank="1"
+	>
+		<UiDesc
+			UiDesc="UI_TUNING_ROOFRACK_SMALL_DESC"
+			UiIcon30x30=""
+			UiIcon40x40=""
+			UiName="UI_TUNING_ROOFRACK_SMALL_NAME"
+		/>
+		<InstallSocket Type="ModScoutRoofrack" />
+	</GameData>
+	<FuelHide>
+		<Mesh Frame="fuel" HideThreshold="0.0" />
+	</FuelHide>
+</TruckAddon>
