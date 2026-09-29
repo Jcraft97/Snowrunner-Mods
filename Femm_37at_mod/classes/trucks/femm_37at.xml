@@ -57,7 +57,7 @@
 		>
 			<Reverse		_inheritRemove="true" />
 			<EngineTrans	Sound="trucks/femm_37at/femm_37at_turbo" />
-			<Reverse		Sound="trucks/femm_37at/femm_37at_back_beeper" />
+		<!--<Reverse		Sound="trucks/femm_37at/femm_37at_back_beeper" />-->
 			<BrakePull		Sound="trucks/femm_37at/femm_37at_brake_pull" />
 			<BrakeRelease	Sound="trucks/common/truck_brake_release_alt2_rnd_set/truck_brake_release_alt2_rnd" />
 			<BrakesSqueal	Sound="trucks/femm_37at/femm_37at_brakes_squeal" />
@@ -381,7 +381,7 @@
 		<UiDesc
 			UiDesc="UI_VEHICLE_FEMM_37AT_DESC"
 			UiIcon30x30="heavyVehicleImg30"
-			UiIcon328x458="shopImgFemm37at"
+			UiIcon328x458="shopImgFemm37atC"
 			UiIcon40x40="heavyVehicleImg"
 			UiIconLogo="FEMMLogo80"
 			UiName="UI_VEHICLE_FEMM_37AT_NAME"
@@ -486,6 +486,17 @@
 		<AddonSockets>
 			<Socket Names="Femm37atMinicraneRU" NamesBlock="FemmSideboard, KenworthFrameAddonMaintainerBig, FrameAddonTankLong, BigCrane" Offset="(1.1; 1.68; 0)" ParentFrame="BoneBack_cdt"/>
 		</AddonSockets>
+
+		<!--Custom Long Logs-->
+		<AddonSockets>
+			<Socket Names="BunkLogCFront" Offset="(1.5; 1.68; 0)" NamesBlock="FemmSideboard, KenworthFrameAddonMaintainerBig, FrameAddonTank, BigCrane,Femm37atMinicraneRU,FrameAddon3,FrameAddonSideboard3,SaddleHighFemm37at,Trailer,LogTrailer" ParentFrame="BoneBack_cdt" >
+				<ExtraParent Frame="BoneChassisBack_cdt"/>
+			</Socket>
+		</AddonSockets>
+		<AddonSockets>
+			<Socket Names="BunkLogCRear" Offset="(-5.4; 1.68; 0)" NamesBlock="FemmSideboard, KenworthFrameAddonMaintainerBig, FrameAddonTank, BigCrane,Femm37atMinicraneRU,FrameAddon3,FrameAddonSideboard3,SaddleHighFemm37at,Trailer,LogTrailer" ParentFrame="BoneChassisBack_cdt" />
+		</AddonSockets>
+
 		<!-- STICKERS -->
 		<AddonSockets>
 			<Socket InCockpit="true" Names="Femm37atSticker_GlassTop" ParentFrame="BoneCabin_cdt" />

@@ -1,5 +1,5 @@
 <_templates Include="trucks" />
-<TruckAddon IsChassisFullOcclusion="true" >
+<TruckAddon IsChassisFullOcclusion="true">
 	<PhysicsModel Mesh="trucks/addons/bunk_log_addon">
 		<Body ImpactType="Truck" Mass="100">
 			<Constraint Type="Rigid" />
@@ -98,21 +98,23 @@
 		UnlockByRank="1"
 	>
 		<UiDesc
-			UiDesc="UI_ADDON_BUNK_LOG_ADDON_DESC"
+			UiDesc="A Custom Log Carrier For Long Logs"
 			UiIcon30x30=""
 			UiIcon40x40=""
-			UiName="Log Carrier Custom Front"
+			UiName="Log Carrier Custom Rear"
 		/>
-		<InstallSocket Offset="(-3.5; 0; 0)" Type="BunkLogCFront" />
-
-		<LoadArea Subtype="CustomLongLogsAddon" Type="CargoLogsLong"  Min="(-10.000; 0; -1.215)" Max="(0.000; 3.000; 1.215)" />
-		<LoadArea Subtype="CustomLongLogsAddon" Type="CargoLogsLong"  Min="(0.000; 0; -1.215)" Max="(2.000; 3.000; 1.215)" />
-		
-		<AddonSlots
-			InitialOffset="(2; 0; 0)"
-			OffsetStep="(0; 0; 0)"
-			ParentFrames="BoneFork_cdt"	
-			Quantity="1"
-		/>
+	<!--<LoadArea
+			Type="CargoLogsLong"
+			Min="(-3.058; -0.007; -2.475)"
+			Max="(3.801; 1.763; 2.475)"
+		/>-->
+		<InstallSocket Offset="(0; 0; 0)" Type="BunkLogCRear" />
+	<!--<AddonSlots
+			InitialOffset="(0; 0; 0)"
+			OffsetStep="(-4.0; 0; 0)"
+			ParentFrames="BoneFront_cdt"
+			UseTrailerFrame="false"			
+			Quantity="3"
+		/>-->
 	</GameData>
 </TruckAddon>

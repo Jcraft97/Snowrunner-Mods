@@ -62,7 +62,7 @@
 	</PhysicsModel>
 	<LoadCheckPoint Pos="(-6.7; 1.251; 0)" ParentFrame="BoneBottom_cdt" />
 	<GameData>
-		<SpawnLoadOrigin Position="(-4; 1; 0)" />
+		<SpawnLoadOrigin Position="(-4.5; 1; 0)" />
 		<Sounds
 			InstallSound="cargo_manual/cargo_manual_logs_long"
 			TransportedSound=""
