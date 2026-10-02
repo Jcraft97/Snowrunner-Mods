@@ -1,0 +1,24 @@
+<_templates Include="trucks"/>
+<TruckAddon>
+	<PhysicsModel Mesh="trucks/rezvani_tank_tuning/rezvani_tank_repair_box">
+		<Body Mass="100">
+			<Constraint Type="Rigid" />
+		</Body>
+	</PhysicsModel>
+	<GameData
+		CameraPreset="loglift_front"
+		Category="frame_addons"
+		IsCustomizable="true"
+		Price="0"
+		UnlockByExploration="false"
+		UnlockByRank="1"
+	>
+		<UiDesc
+			UiDesc=""
+			UiIcon30x30=""
+			UiIcon40x40=""
+			UiName="Crane Frame"
+		/>
+		<InstallSocket Type="RezvaniTankRepairBox2" />
+	</GameData>
+</TruckAddon>
