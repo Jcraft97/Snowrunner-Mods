@@ -549,6 +549,7 @@
 			<Socket Names="TatraCrane_custom" Offset="(-0.9; 0.55; 0)"  NamesBlock="BigCraneUs, MetalDetector, FrameAddonMaintainerBig, FrameAddonTowPlatform, BigCrane, FrameAddonLogMedium, FrameAddonLogShort,SleiterST833ChimeraSpareWheel_custom" ParentFrame="BoneChassis_cdt" >
 				<AddonsShift Offset="(-1.3; 0; 0)" Types="PacificP12CHKung" />
 			</Socket>
+			<Socket Names="HeavyRepairSmallC" Offset="(-0.5; 1.55; 0)" NamesBlock="LogLiftKenworth,TatraCrane_custom,SleiterST833ChimeraSpareWheel_custom,MinicraneKenworth,CranePacificP12CH" ParentFrame="BoneChassis_cdt" />
 		</AddonSockets>
 		
 		<!-- TRAILERS -->
