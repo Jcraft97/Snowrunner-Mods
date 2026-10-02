@@ -112,7 +112,7 @@
 		/>
 		<GearboxSocket Default="g_special_default" Type="gearboxes_special" />
 		<FuelTank DamageCapacity="100" />
-		<EngineSocket Default="ru_special_engine_0" Type="e_ru_special, e_ru_special_femm_37at" />
+		<EngineSocket Default="ru_special_engine_0" Type="e_ru_special, e_ru_special_femm_37at_custom" />
 		<Driver Pos="(5.7; 2.573; 0.741)" SteeringWheelPos="(6.072; 2.901; 0.724)" AnimationSet="HeavyTruck" LegsOffset="(0; 0; 0)" ParentFrame="BoneCabin_cdt" />
 		 <Dashboard>
 			<Gauge Damping="0.9" Dir="(-0.922; 0.387; 0)" InputRange="(0;1)" InputType="rpm" Mesh="trucks/arrows/femm_37at_arrow_01" Org="(6.354; 2.808; 0.632)" OutputAngles="(-135;130)" />
