@@ -26,7 +26,7 @@
 		ExhaustStartTime="1.9"
 		FuelCapacity="340"
 		Responsiveness="0.3"
-		SteerSpeed="0.015"
+		SteerSpeed="0.02"
 		TruckImage="femm37atmchr"
 		TruckType="HEAVY"
 		HideDistance="250"
@@ -291,8 +291,8 @@
 				>
 					<Motor
 						Damping="1.0"
-						Force="123000"
-						Tau="0.8"
+						Force="200000"
+						Tau="1"
 						Type="Position"
 					/>
 				</Constraint>
@@ -495,31 +495,32 @@
 			</Socket>
 			<Socket Names="KenworthFrameAddonMaintainerBig" NamesBlock="SaddleHighFemm37at, Trailer, LogTrailer" Offset="(1.5; 1.79; 0)" ParentFrame="BoneChassisBack_cdt"/>
 			<Socket Names="FrameAddonTank" NamesBlock="SaddleHighFemm37at" Offset="(-4; 1.683; 0)" ParentFrame="BoneChassisBack_cdt" />
+ 			<Socket Names="FrameAddonTankLong" NamesBlock="SaddleHighFemm37at" Offset="(-2.2; 1.683; 0)" ParentFrame="BoneChassisBack_cdt" />
 		</AddonSockets>
 		<AddonSockets>
 		<!--<Socket Names="Femm37atMinicraneRU" Offset="(1.1; 1.68; 0)" NamesBlock="FemmSideboard, KenworthFrameAddonMaintainerBig, FrameAddonTankLong, BigCrane" ParentFrame="BoneBack_cdt"/>-->
-			<Socket Names="CraneFemm37atHeavy" Offset="(4.1; 0.67; 0)" NamesBlock="KenworthFrameAddonMaintainerBig, FrameAddonTankLong, BigCrane,Femm37atExhaust_out_heavy" ParentFrame="BoneFront_cdt"/>
-			<Socket Names="HeavyRepairCrane" Offset="(4.2; 1.45; 0)" Dir="(0; 0; -1)" NamesBlock="KenworthFrameAddonMaintainerBig, FrameAddonTankLong, BigCrane,Femm37atExhaust_out_heavy" ParentFrame="BoneFront_cdt"/>
+			<Socket Names="CraneFemm37atHeavy" Offset="(4.1; 0.67; 0)" NamesBlock="BigCrane,Femm37atExhaust_out_heavy,Femm37AtTop_heavy" ParentFrame="BoneFront_cdt"/>
+			<Socket Names="HeavyRepairCrane" Offset="(4.2; 1.45; 0)" Dir="(0; 0; -1)" NamesBlock="BigCrane,Femm37atExhaust_out_heavy" ParentFrame="BoneFront_cdt"/>
 		</AddonSockets>
 
 		<!--Custom Long Logs-->
 		<AddonSockets>
-			<Socket Names="BunkLogHeavyFront" Offset="(1.5; 1.68; 0)" NamesBlock="FemmSideboard, KenworthFrameAddonMaintainerBig, FrameAddonTank, BigCrane,Femm37atMinicraneRU,FrameAddon3,FrameAddonSideboard3,SaddleHighFemm37at,Trailer,LogTrailer" ParentFrame="BoneBack_cdt" >
+			<Socket Names="BunkLogHeavyFront" Offset="(1.5; 1.68; 0)" NamesBlock="FemmSideboard, KenworthFrameAddonMaintainerBig, FrameAddonTank, BigCrane,Femm37atMinicraneRU,FrameAddon3,FrameAddonSideboard3,SaddleHighFemm37at,Trailer,LogTrailer,CraneFemm37atHeavy,HeavyRepairCrane" ParentFrame="BoneBack_cdt" >
 				<ExtraParent Frame="BoneChassisBack_cdt"/>
 			</Socket>
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="BunkLogHeavyRear" Offset="(-5.4; 1.68; 0)" NamesBlock="FemmSideboard, KenworthFrameAddonMaintainerBig, FrameAddonTank, BigCrane,Femm37atMinicraneRU,FrameAddon3,FrameAddonSideboard3,SaddleHighFemm37at,Trailer,LogTrailer" ParentFrame="BoneChassisBack_cdt" />
+			<Socket Names="BunkLogHeavyRear" Offset="(-5.4; 1.68; 0)" NamesBlock="FemmSideboard, KenworthFrameAddonMaintainerBig, FrameAddonTank, BigCrane,Femm37atMinicraneRU,FrameAddon3,FrameAddonSideboard3,SaddleHighFemm37at,Trailer,LogTrailer,CraneFemm37atHeavy,HeavyRepairCrane" ParentFrame="BoneChassisBack_cdt" />
 		</AddonSockets>
 
 		<AddonSockets>
 			<Socket Names="Kenworth963SpareWheelC" Offset="(3.85; -0.1; 0)" NamesBlock="Femm37atExhaust_out_heavy,CranePacificP12CH,HeavyRepairCrane,FemmSideboard" ParentFrame="BoneFront_cdt" />
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="RezvaniTankRepairBox1" Dir="(0; 1; 0)" Offset="(2.65; 1.8; -0.9)" NamesBlock="BunkLogHeavyFront,HeavyRepairCrane,Kenworth963SpareWheelC" ParentFrame="BoneFront_cdt" />
+			<Socket Names="RezvaniTankRepairBox1" Dir="(0; 1; 0)" Offset="(2.65; 1.8; -0.9)" NamesBlock="BunkLogHeavyFront,BunkLogHeavyRear,HeavyRepairCrane,Kenworth963SpareWheelC" ParentFrame="BoneFront_cdt" />
 		</AddonSockets>
 		<AddonSockets>
-			<Socket Names="RezvaniTankRepairBox2" Dir="(0; -1; 0)" Offset="(2.65; 1.8; 0.9)" NamesBlock="BunkLogHeavyFront,HeavyRepairCrane,Kenworth963SpareWheelC" ParentFrame="BoneFront_cdt" />
+			<Socket Names="RezvaniTankRepairBox2" Dir="(0; -1; 0)" Offset="(2.65; 1.8; 0.9)" NamesBlock="BunkLogHeavyFront,BunkLogHeavyRear,HeavyRepairCrane,Kenworth963SpareWheelC" ParentFrame="BoneFront_cdt" />
 		</AddonSockets>
 
 		<!-- STICKERS -->

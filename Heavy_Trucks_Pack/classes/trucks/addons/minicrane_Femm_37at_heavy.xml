@@ -19,9 +19,9 @@
 					Name="Anchor"
 					Type="Prismatic"
 					MinLimit="0"
-					MaxLimit="2.2"
+					MaxLimit="2.8"
 				>
-					<Motor Force="5000" Type="Position" />
+					<Motor Force="85000" Type="Position" />
 				</Constraint>
 			</Body>
 		</Anchor>
@@ -43,7 +43,7 @@
 					InitialFix="true"
 					Name="Anchor"
 					TerminalFix="true"
-					Position="2.2"
+					Position="2.8"
 				/>
 			</Group>
 		</Chain>
