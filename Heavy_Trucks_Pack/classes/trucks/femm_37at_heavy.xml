@@ -330,12 +330,6 @@
 		</Body>
 	</PhysicsModel>
 	<ModelAttachments>
-		<StopSignals>
-			
-		</StopSignals>
-		<ReverseSignals>
-			
-		</ReverseSignals>
 		<Ignition>
 			<!-- SIDE SMALL LIGHTS -->
 			<Flare _template="IgnitionSignalRed" AspectRatio="1" ColorMultAtDay="0.2" Dir="(-1; 0; 0)" Size="0.22" Pos="(6.182; 3.665; 1.198)" ParentFrame="BoneCabin_cdt" />
