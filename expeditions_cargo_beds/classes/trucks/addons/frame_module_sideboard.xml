@@ -1,0 +1,175 @@
+<_templates>
+	<Flare>
+		<IgnitionSparkRift
+			AspectRatio="0.3"
+			Color="g(255; 230; 0)x0.4"
+			DirAngle="90"
+			Dir="(1; 0; 0)"
+			Size="0.4"
+			Size=".35"
+		/>
+		<IgnitionSparkHalo		
+			AspectRatio="1.4"
+			Color="g(255; 210; 0)x0.7"
+			DirAngle="90"
+			Dir="(1; 0; 0)"
+			Size="0.4"	
+		/>
+		<IgnitionSignalOrange
+			AspectRatio="1.4"
+			Color="g(255; 140; 0) x 0.4"
+			ColorMultAtDay="0.6"
+			Dir="(0; 1; 0)"
+			DirAngle="135"
+			Size="0.1"
+		/>
+		<BlueStreak
+			AspectRatio="4.0"
+			Color="g(220; 220; 255) x 0.1"
+			ColorMultAtDay="0"
+			Dir="(1; 0; 0)"
+			DirAngle="45"
+			Size="1."
+			Texture="sfx/flare_line__s_d.tga"
+		/>
+		<ReverseSignal
+			AspectRatio="1.4"
+			Color="g(255; 255; 255) x 0.4"
+			ColorMultAtDay="0.55"
+			Dir="(-1; 0; 0)"
+			DirAngle="90"
+			Reflections="true"
+			Size="0.1"
+			SizeMultAtDay="0.3"
+		/>
+	</Flare>
+</_templates>
+<TruckAddon IsChassisFullOcclusion="true">
+	<TruckData
+		RepairsCapacity="50"
+	/>
+	<RepairsHide>
+		<Mesh Frame="cover_state_01" HideThreshold="1.0" />
+		<Mesh Frame="cover_state_02" HideThreshold="1.0" />
+		<Mesh Frame="cover_state_03" HideThreshold="1.0" />
+		<Mesh Frame="cover_state_04" HideThreshold="1.0" />
+		<Mesh Frame="cover_state_05" HideThreshold="1.0" />
+		<Mesh Frame="cover_state_06" HideThreshold="1.0" />
+		<Mesh Frame="cover_state_07" HideThreshold="1.0" />
+		<Mesh Frame="cover_state_08" HideThreshold="1.0" />
+	</RepairsHide>
+	<PhysicsModel AcceptVisualDamage="false" Mesh="trucks_addons_frame_module_sideboard">
+		<!-- MeshFrame="sideboard_long" -->
+		<Body
+			Collisions="Default"
+			ImpactType="Truck"
+			Mass="1000"
+			ModelFrame="BoneAddon_cdt"
+		>
+			<Constraint Type="Rigid" />
+			<Body Collisions="None" Mass="5" ModelFrame="BoneFabric_cdt">
+				<Constraint
+					LinearLimitsX="-0.01; 0.02"
+					LinearLimitsY="0.0; 0.0"
+					LinearLimitsZ="-0.035; 0.033"
+					Type="Fixed"
+				>
+					<Motor Damping="300.0" Spring="50.0" Type="Spring" />
+				</Constraint>
+			</Body>
+			<Body Collisions="None" Mass="5" ModelFrame="BoneBox_cdt">
+				<Constraint
+					LinearLimitsX="-0.02; 0.02"
+					LinearLimitsY="0.0; 0.0"
+					LinearLimitsZ="-0.015; 0.015"
+					Type="Fixed"
+				>
+					<Motor Damping="50.0" Spring="30.0" Type="Spring" />
+				</Constraint>
+			</Body>
+			<Body Collisions="None" Mass="5" ModelFrame="BoneCargo_cdt">
+				<Constraint
+					LinearLimitsX="-0.05; 0.05"
+					LinearLimitsY="0;0"
+					LinearLimitsZ="-0.05; 0.05"
+					Type="Fixed"
+				>
+					<Motor Damping="180" Spring="50" Type="Spring" />
+				</Constraint>
+			</Body>
+		</Body>
+	</PhysicsModel>
+	<ModelAttachments>
+		<StopSignals>
+			<!-- Rear Sides -->
+			<Flare _template="IgnitionSparkRift" AspectRatio="0.2" Color="g(255; 120; 0)x0.8" Dir="(-1; 0; 0)" Size="0.25" Pos="(-5.25; 0.33; 1.12)" ParentFrame="BoneAddon_cdt" />
+			<Flare _template="IgnitionSparkRift" AspectRatio="0.2" Color="g(255; 120; 0)x0.8" Dir="(-1; 0; 0)" Size="0.18" Pos="(-5.25; 0.33; 1.19)" ParentFrame="BoneAddon_cdt" />
+			<Flare _template="IgnitionSparkRift" AspectRatio="0.2" Color="g(255; 120; 0)x0.8" Dir="(-1; 0; 0)" Size="0.18" Pos="(-5.25; 0.33; 1.050)" ParentFrame="BoneAddon_cdt" />
+			<Flare _template="IgnitionSparkRift" AspectRatio="0.2" Color="g(255; 120; 0)x0.8" Dir="(-1; 0; 0)" Size="0.25" Pos="(-5.25; 0.33; -1.12)" ParentFrame="BoneAddon_cdt" />
+			<Flare _template="IgnitionSparkRift" AspectRatio="0.2" Color="g(255; 120; 0)x0.8" Dir="(-1; 0; 0)" Size="0.18" Pos="(-5.25; 0.33; -1.19)" ParentFrame="BoneAddon_cdt" />
+			<Flare _template="IgnitionSparkRift" AspectRatio="0.2" Color="g(255; 120; 0)x0.8" Dir="(-1; 0; 0)" Size="0.18" Pos="(-5.25; 0.33; -1.050)" ParentFrame="BoneAddon_cdt" />
+		</StopSignals>
+		<ReverseSignals>
+			<!-- Rear Steps White -->
+			<Light
+				_template="ReverseSignal"
+				Color="g(255; 255; 255)x1.5"
+				Pos="(-5.45; 0.142; 0.469)"
+				ParentFrame="BoneCabin_cdt"
+			/>
+			<Flare _template="IgnitionSparkHalo" Color="g(255; 255; 255)x1.0" Dir="(-1; 0; 0)" Size="0.3" Pos="(-5.25; 0.142; 0.469)" ParentFrame="BoneAddon_cdt" />
+			<Flare _template="IgnitionSparkRift" AspectRatio="1.5" Color="g(255; 255; 255)x0.1" Dir="(-1; 0; 0)" Size="0.1" Pos="(-5.25; 0.142; 0.469)" ParentFrame="BoneAddon_cdt" />
+			<Flare _template="IgnitionSparkHalo" Color="g(255; 255; 255)x1.0" Dir="(-1; 0; 0)" Size="0.3" Pos="(-5.25; 0.142; -0.469)" ParentFrame="BoneAddon_cdt" />
+			<Flare _template="IgnitionSparkRift" AspectRatio="1.5" Color="g(255; 255; 255)x0.1" Dir="(-1; 0; 0)" Size="0.1" Pos="(-5.25; 0.142; -0.469)" ParentFrame="BoneAddon_cdt" />
+			<Flare _template="BlueStreak" Color="g(220; 220; 255) x 0.2" Dir="(-1; 0; 0)" Size="0.4" Pos="(-5.25; 0.142; 0.469)" />
+			<Flare _template="BlueStreak" Color="g(220; 220; 255) x 0.2" Dir="(-1; 0; 0)" Size="0.4" Pos="(-5.25; 0.142; -0.469)" />
+		</ReverseSignals>
+		<Ignition>
+			<!-- Rear Sides -->
+			<Flare _template="IgnitionSparkRift" AspectRatio="0.2" Color="g(255; 0; 0)x0.4" Dir="(-1; 0; 0)" Size="0.25" Pos="(-5.25; 0.33; 1.12)" ParentFrame="BoneAddon_cdt" />
+			<Flare _template="IgnitionSparkRift" AspectRatio="0.2" Color="g(255; 0; 0)x0.4" Dir="(-1; 0; 0)" Size="0.18" Pos="(-5.25; 0.33; 1.19)" ParentFrame="BoneAddon_cdt" />
+			<Flare _template="IgnitionSparkRift" AspectRatio="0.2" Color="g(255; 0; 0)x0.4" Dir="(-1; 0; 0)" Size="0.18" Pos="(-5.25; 0.33; 1.050)" ParentFrame="BoneAddon_cdt" />
+			<Flare _template="IgnitionSparkRift" AspectRatio="0.2" Color="g(255; 0; 0)x0.4" Dir="(-1; 0; 0)" Size="0.25" Pos="(-5.25; 0.33; -1.12)" ParentFrame="BoneAddon_cdt" />
+			<Flare _template="IgnitionSparkRift" AspectRatio="0.2" Color="g(255; 0; 0)x0.4" Dir="(-1; 0; 0)" Size="0.18" Pos="(-5.25; 0.33; -1.19)" ParentFrame="BoneAddon_cdt" />
+			<Flare _template="IgnitionSparkRift" AspectRatio="0.2" Color="g(255; 0; 0)x0.4" Dir="(-1; 0; 0)" Size="0.18" Pos="(-5.25; 0.33; -1.050)" ParentFrame="BoneAddon_cdt" />
+			<!-- Sides -->
+			<Flare _template="IgnitionSignalOrange" Color="g(255; 180; 0) x 0.9" Dir="(0; 0; 1)" DirAngle="90" Size="0.075" Pos="(-0.173; 0.248; 1.303)" ParentFrame="BoneCabin_cdt" />
+			<Flare _template="IgnitionSignalOrange" Color="g(255; 180; 0) x 0.9" Dir="(0; 0; -1)" DirAngle="90" Size="0.075" Pos="(-0.173; 0.248; -1.303)" ParentFrame="BoneCabin_cdt" />
+			<Flare _template="IgnitionSignalOrange" Color="g(255; 140; 0) x 0.6" Dir="(0; 0; 1)" DirAngle="90" Size="0.3" Pos="(-0.173; 0.248; 1.303)" ParentFrame="BoneCabin_cdt" />
+			<Flare _template="IgnitionSignalOrange" Color="g(255; 140; 0) x 0.6" Dir="(0; 0; -1)" DirAngle="90" Size="0.3" Pos="(-0.173; 0.248; -1.303)" ParentFrame="BoneCabin_cdt" />
+			<Flare _template="IgnitionSignalOrange" Color="g(255; 180; 0) x 0.9" Dir="(0; 0; 1)" DirAngle="90" Size="0.075" Pos="(-5.016; 0.248; 1.303)" ParentFrame="BoneCabin_cdt" />
+			<Flare _template="IgnitionSignalOrange" Color="g(255; 180; 0) x 0.9" Dir="(0; 0; -1)" DirAngle="90" Size="0.075" Pos="(-5.016; 0.248; -1.303)" ParentFrame="BoneCabin_cdt" />
+			<Flare _template="IgnitionSignalOrange" Color="g(255; 140; 0) x 0.6" Dir="(0; 0; 1)" DirAngle="90" Size="0.3" Pos="(-5.016; 0.248; 1.303)" ParentFrame="BoneCabin_cdt" />
+			<Flare _template="IgnitionSignalOrange" Color="g(255; 140; 0) x 0.6" Dir="(0; 0; -1)" DirAngle="90" Size="0.3" Pos="(-5.016; 0.248; -1.303)" ParentFrame="BoneCabin_cdt" />
+		</Ignition>
+	</ModelAttachments>
+<!--<HeavyInventorySlotsMeshes>
+		<Mesh Frame="cover_state_00" HideThreshold="0" />
+		<Mesh Frame="cover_state_01" HideThreshold="1" />
+		<Mesh Frame="cover_state_02" HideThreshold="2" />
+		<Mesh Frame="cover_state_03" HideThreshold="3" />
+		<Mesh Frame="cover_state_04" HideThreshold="4" />
+		<Mesh Frame="cover_state_05" HideThreshold="5" />
+		<Mesh Frame="cover_state_06" HideThreshold="6" />
+		<Mesh Frame="cover_state_07" HideThreshold="7" />
+		<Mesh Frame="cover_state_08" HideThreshold="8" />
+	</HeavyInventorySlotsMeshes>-->
+	<GameData
+		CameraPreset="addon_1"
+		Category="frame_addons"
+		IsCustomizable="true"
+		Price="0"
+		UnlockByExploration="false"
+		UnlockByRank="1"
+	>
+		<UiDesc
+			UiDesc="UI_MODULE_FRAME_SIDEBOARD_DESC"
+			UiIcon30x30=""
+			UiIcon40x40=""
+			UiName="UI_MODULE_FRAME_SIDEBOARD_NAME"
+		/>
+
+		<InstallSocket Offset="(-2.4; 0; 0)" Type="FrameAddon" />
+		<AddonSlots InitialOffset="(-1.5; 0.49; 0)" OffsetStep="(-2.5; 0; 0)" Quantity="2" />
+	</GameData>
+</TruckAddon>
